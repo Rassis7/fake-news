@@ -14,14 +14,19 @@ export const Card = styled.View`
   align-items: center;
   margin-bottom: 20px;
   border-radius: 10px;
-  border: 1px solid #eee;
+  border-width: 1px;
+  border-color: #ddd;
 `;
 
 export const CardImage = styled.Image`
   width: 100%;
   flex-direction: row;
   aspect-ratio: 1.9;
+  border-width: 1px;
+  border-color: #ddd;
   border-radius: 10px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 `;
 
 export const CardContent = styled.View`

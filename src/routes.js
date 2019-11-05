@@ -1,43 +1,44 @@
 import React from 'react';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
-import createAnimatedSwitchNavigator from 'react-navigation-animated-switch';
 import {createStackNavigator} from 'react-navigation-stack';
 import {Transition} from 'react-native-reanimated';
 
 import Main from 'pages/Main';
 import News from 'pages/News';
+import NotData from 'pages/NotData';
 
-const main = createAnimatedSwitchNavigator(
+const Navigator = createStackNavigator(
   {
-    Main: {
-      screen: Main,
-    },
+    Main,
+    News,
+    NotData,
   },
   {
+    headerLayoutPreset: 'center',
+    headerBackTitleVisible: false,
+    mode: 'modal',
+    defaultNavigationOptions: {
+      headerTitleStyle: {
+        fontSize: 24,
+        fontWeight: 'bold',
+      },
+    },
     transition: (
-      <Transition.Together>
-        <Transition.Out
-          type="slide-bottom"
-          durationMs={400}
-          interpolation="easeIn"
-        />
-        <Transition.In type="fade" durationMs={500} />
-      </Transition.Together>
+      <Transition.Sequence>
+        <Transition.Out type="fade" durationMs={400} interpolation="easeIn" />
+        <Transition.Change />
+        <Transition.Together>
+          <Transition.In
+            type="slide-bottom"
+            durationMs={400}
+            interpolation="easeOut"
+            propagation="bottom"
+          />
+          <Transition.In type="fade" durationMs={200} delayMs={100} />
+        </Transition.Together>
+      </Transition.Sequence>
     ),
   },
 );
 
-const news = createStackNavigator(
-  {
-    News: {
-      screen: News,
-    },
-  },
-  {
-    mode: 'modal',
-    headerLayoutPreset: 'center',
-    headerBackTitleVisible: true,
-  },
-);
-
-export default createAppContainer(createSwitchNavigator({main, news}));
+export default createAppContainer(createSwitchNavigator({Navigator}));

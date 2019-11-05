@@ -1,5 +1,5 @@
 {
-  "top-headlines": {
+  "top-headlines-technology": {
     "status": "ok",
     "totalResults": 70,
     "articles": [
@@ -66,7 +66,7 @@
         "url": "https://macmagazine.uol.com.br/post/2019/10/28/rastreador-da-apple-devera-se-chamar-airtag-surgem-imagens-de-novas-smart-battery-cases/",
         "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/09/6-Tile-Render.jpg",
         "publishedAt": "2019-10-28T19:58:00Z",
-        "content": "Já faz algum tempo desde a última vez em que falamos sobre os (supostos) vindouros acessórios de rastreamento da Apple, que farão uso do chip U1 dos novos iPhones e deverão ser apresentados em algum momento dos próximos meses (ou dias). Pois hoje nosso amigo … [+2832 chars]"
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat purus ac lacus tincidunt, ac luctus lacus vulputate. Aenean euismod justo ut posuere rutrum. Pellentesque facilisis mauris sit amet tellus rhoncus, a imperdiet diam vehicula. Aliquam ligula enim, pellentesque a vehicula nec, fermentum et metus. Sed id commodo eros. Aliquam nec convallis orci, sit amet mattis purus. Morbi tristique semper odio eu vestibulum. Nullam tempor odio est, sit amet semper ex hendrerit id. Praesent facilisis auctor augue, a dictum ipsum rhoncus ut. Cras volutpat libero magna, quis dignissim diam tempus sit amet. Fusce tempor urna ut arcu semper ultrices. Aliquam erat volutpat. Nulla facilisi. In auctor, eros eget commodo maximus, est libero ultricies nulla, in interdum ante lectus in erat. Aenean in tempus odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at leo pellentesque, efficitur neque vitae, faucibus est. Sed semper, enim eget lobortis ornare, ligula augue hendrerit tellus, et faucibus leo eros quis urna. Maecenas feugiat dictum tellus vel volutpat. Cras dolor ligula, pretium ultricies ligula a, elementum faucibus purus. Nulla tristique sapien tortor, nec efficitur massa pretium id. Vivamus ac dui in sapien pellentesque dignissim sed et ligula. Fusce ut vulputate libero, sit amet scelerisque orci."
       },
       {
         "source": {
@@ -265,7 +265,1615 @@
       }
     ]
   },
+
+  "top-headlines-business": {
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+      {
+        "source": {
+          "id": "info-money",
+          "name": "InfoMoney"
+        },
+        "author": null,
+        "title": "Bradesco tem mais uma vez um trimestre sólido, mas ação cai 4%: o que preocupa os investidores? - InfoMoney",
+        "description": "Antecipação de resultado, expectativa de que números não vão se manter e alta das despesas levam à reação negativa das ações",
+        "url": "https://www.infomoney.com.br/mercados/bradesco-tem-mais-uma-vez-um-trimestre-solido-mas-acao-cai-4-o-que-preocupa-os-investidores/",
+        "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2019/06/bradesco-bancos.jpg?fit=640%2C464&quality=75&strip=all",
+        "publishedAt": "2019-10-31T18:25:00Z",
+        "content": "SÃO PAULO – Mais uma sessão negativa para os mercados, expectativas altas para o balanço e visão de desafios para o futuro. Por estes motivos, e assim como no segundo trimestre de 2019, as ações do Bradesco (BBDC3;BBDC4) reagem mais uma vez em forte queda apó… [+6253 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Editalconcursosbrasil.com.br"
+        },
+        "author": "Amanda França",
+        "title": "CAIXA lança aplicativo para clientes de baixa renda - Edital Concursos Brasil",
+        "description": "Será possível realizar com baixo consumo de internet, consultas ao FGTS, Bolsa Família, pagamentos máximos de R$ 250 e transferências de R$ 1 mil.",
+        "url": "https://editalconcursosbrasil.com.br/noticias/2019/10/caixa-lanca-aplicativo-para-clientes-de-baixa-renda/",
+        "urlToImage": "https://editalconcursosbrasil.com.br/wp-content/uploads/2019/08/caixa.jpeg",
+        "publishedAt": "2019-10-31T16:48:20Z",
+        "content": "Pensando nos clientes de baixa renda e beneficiários de programas sociais, a Caixa Econômica Federal lançou, na última quarta-feira,30, o aplicativo Caixa Tem. De acordo com o vice-presidente do banco, Valer Nunes, o app possibilitará pagamentos máximos de R$… [+1564 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metrojornal.com.br"
+        },
+        "author": "Angela Correa",
+        "title": "Número de desempregados tem leve queda e taxa de informalidade cresce 41%, mostra IBGE - Metro Jornal",
+        "description": "Estadão Conteúdo - 2019/10/31",
+        "url": "https://www.metrojornal.com.br/foco/2019/10/31/numero-de-desempregados-tem-leve-queda-e-taxa-de-informalidade-cresce-41-mostra-ibge.html",
+        "urlToImage": "https://media.metrolatam.com/2018/08/07/11982898high-72eb4e7a9e4d3b10c8913178a4304f80-1200x800.jpg",
+        "publishedAt": "2019-10-31T16:25:03Z",
+        "content": "A taxa de desocupação no Brasil ficou em 11,8% no trimestre encerrado em setembro, de acordo com os dados da Pesquisa Nacional por Amostra de Domicílios Contínua (Pnad Contínua) divulgados nesta quinta-feira, 31, pelo Instituto Brasileiro de Geografia e Estat… [+2153 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": null,
+        "title": "Com alta nos pedidos, Embraer entregou 44 aviões no terceiro trimestre de 2019 - Airway",
+        "description": "Facebook0Tweet0 A Embraer divulgou nesta quinta-feira (31) que entregou um total de 44 aeronaves durante o terceiro trimestre deste ano (3T19). O volume inclui 17 ...",
+        "url": "https://airway.uol.com.br/com-alta-nos-pedidos-embraer-entregou-44-avioes-no-terceiro-trimestre-de-2019/",
+        "urlToImage": "https://airway.uol.com.br/wp-content/uploads/2019/10/E2_liontech.jpg",
+        "publishedAt": "2019-10-31T16:12:19Z",
+        "content": "Os jatos da nova série E2 ainda não embalaram no mercado e somam apenas nove entregas (Embraer)\r\nA Embraer divulgou nesta quinta-feira (31) que entregou um total de 44 aeronaves durante o terceiro trimestre deste ano (3T19). O volume inclui 17 jatos comerciai… [+4228 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Terra.com.br"
+        },
+        "author": null,
+        "title": "Empresa aposta em coco in Natura que abre como latinha de alumínio - Terra",
+        "description": "Empresa do setor alimentício, EdenCoco, chega no mercado com o lançamento do coco vende in natura, que abre como uma latinha de alumínio.",
+        "url": "https://www.terra.com.br/noticias/dino/empresa-aposta-em-coco-in-natura-que-abre-como-latinha-de-aluminio,fb284a3b13b96f188041a6a8fb08a0019tvvs2ck.html",
+        "urlToImage": "http://p2.trrsf.com/image/fget/cf/800/450/middle/images.terra.com/2019/10/31/057687f8-6730-42dd-bf56-eb132e0f294f.jpg",
+        "publishedAt": "2019-10-31T16:06:43Z",
+        "content": "O consumo de alimentos naturais vem crescendo no Brasil, aponta pesquisa do Conselho Brasileiro da Produção Orgânica e Sustentável (Organis). De acordo com o diretor executivo do Organis - a principal entidade setorial de orgânicos do País, Ming Liu observa q… [+2761 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Investing.com"
+        },
+        "author": null,
+        "title": "Bradesco vai fechar 300 agências em 2020 Por Reuters - Investing.com Brasil",
+        "description": "Bradesco vai fechar 300 agências em 2020",
+        "url": "https://br.investing.com/news/stock-market-news/bradesco-vai-fechar-300-agencias-em-2020-696630",
+        "urlToImage": "https://i-invdn-com.akamaized.net/trkd-images/LYNXMPEF9U1GH_L.jpg",
+        "publishedAt": "2019-10-31T15:17:00Z",
+        "content": "Por Carolina Mandl\r\nSÃO PAULO (Reuters) - O Bradesco (SA:BBDC4), segundo maior credor do setor privado do Brasil, fechará cerca de 300 agências em 2020, como parte de um esforço para enfrentar maiores despesas operacionais que afetaram os ganhos do terceiro t… [+2307 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Esmaelmorais.com.br"
+        },
+        "author": null,
+        "title": "Ford fecha e demite em São Bernardo; Doria deixa trabalhadores na ‘mão’ - Blog do Esmael",
+        "description": "Ford fecha e demite em São Bernardo; Doria deixa trabalhadores na 'mão'. O complexo da Ford em São Bernardo do Campo...Leia no Blog do Esmael",
+        "url": "https://www.esmaelmorais.com.br/2019/10/ford-fecha-e-demite-em-sao-bernardo-doria-deixa-trabalhadores-na-mao/",
+        "urlToImage": "https://www.esmaelmorais.com.br/wp-content/uploads/2019/10/fim-da-ford.jpg",
+        "publishedAt": "2019-10-31T15:08:57Z",
+        "content": "O complexo da Ford em São Bernardo do Campo, na região do ABC em São Paulo, encerrou as atividades da unidade nesta quarta-feira (30), após 52 anos de funcionamento. A última linha de montagem ativa na fábrica era a dos caminhões.Os aproximadamente 650 funcio… [+1159 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Noticiasautomotivas.com.br"
+        },
+        "author": "Ricardo de Oliveira",
+        "title": "JAC A5: novo sedã custará entre R$ 48 mil e R$ 66 mil na... - Noticias Automotivas",
+        "description": "O novo sedã A5 da JAC Motors já tem preço de pré-venda no mercado chinês, onde custará de 84.800 yuans até 115.800 yuans, o que equivale a algo entre R$ 48,1 mil e R$ 65,7 mil numa conversão direta. Obviamente, se fosse vendido no Brasil, ele custaria bem mai…",
+        "url": "https://www.noticiasautomotivas.com.br/jac-a5-novo-seda-custara-entre-r-48-mil-e-r-66-mil-na-china/",
+        "urlToImage": "https://images.noticiasautomotivas.com.br/img/f/jac-a5-1.jpg",
+        "publishedAt": "2019-10-31T14:32:31Z",
+        "content": "O novo sedã A5 da JAC Motors já tem preço de pré-venda no mercado chinês, onde custará de 84.800 yuans até 115.800 yuans, o que equivale a algo entre R$ 48,1 mil e R$ 65,7 mil numa conversão direta. Obviamente, se fosse vendido no Brasil, ele custaria bem mai… [+1758 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Investing.com"
+        },
+        "author": null,
+        "title": "Após renovar recorde, Ibovespa tem queda firme com balanços em foco - Investing.com Brasil",
+        "description": "Após renovar recorde, Ibovespa tem queda firme com balanços em foco",
+        "url": "https://br.investing.com/news/stock-market-news/apos-renovar-recorde-ibovespa-tem-queda-firme-com-balancos-em-foco-696609",
+        "urlToImage": "https://i-invdn-com.akamaized.net/trkd-images/LYNXMPEF9U19K_L.jpg",
+        "publishedAt": "2019-10-31T14:25:00Z",
+        "content": "Por Peter Frontini\r\nSÃO PAULO (Reuters) - Após atingir nível recorde na sessão da véspera, o Ibovespa registrava queda firme nesta quinta-feira, com negócios ainda ditados pela temporada de balanços corporativos do terceiro trimestre, após reunião do Copom co… [+3161 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metrojornal.com.br"
+        },
+        "author": "Luccas Balacci",
+        "title": "Confira a cotação do dólar, euro e bitcoin em tempo real nesta sexta, 31 de outubro - Metro Jornal",
+        "description": "Vai viajar ou comprar em sites do exterior? Acompanhe em tempo real a cotação do dólar e do euro em relação ao real. Confira também a variação do bitcoin.",
+        "url": "https://www.metrojornal.com.br/foco/2019/10/31/cotacao-do-dolar-euro-bitcoin-tempo-real-quinta-31-outubro.html",
+        "urlToImage": "https://media.metrolatam.com/2019/09/13/blurcashcloseup5-850463da40cb0033f9f6ddb1a4e5ffb5-1200x800.jpg",
+        "publishedAt": "2019-10-31T14:23:18Z",
+        "content": "O dólar recua no mercado à vista nesta quinta-feira, 31, em meio à disputa técnica em torno da formação da última taxa Ptax de outubro e acompanhando as perdas persistentes da moeda americana frente seus pares principais no exterior.\r\nOs agentes financeiros r… [+881 chars]"
+      },
+      {
+        "source": {
+          "id": "info-money",
+          "name": "InfoMoney"
+        },
+        "author": null,
+        "title": "“Queda de juros ajuda, mas não faz mágica”, diz ex-diretor do Banco Central - InfoMoney",
+        "description": "Para José Júlio Senna, do FGV/Ibre, juros baixos não são garantia de recuperação da economia",
+        "url": "https://www.infomoney.com.br/economia/queda-de-juros-ajuda-mas-nao-faz-magica-diz-ex-diretor-do-banco-central/",
+        "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2019/06/juros_juros-futuros_renda-fixa-1.jpg?fit=900%2C600&quality=75&strip=all",
+        "publishedAt": "2019-10-31T14:23:00Z",
+        "content": "O atual cenário de inflação baixa e de necessidade de estimular a atividade econômica são indicativos de que o ciclo de juros baixos no Brasil deve ser longo, analisa o economista e chefe do Centro de Estudos Monetários, do FGV/Ibre, José Júlio Senna. Ele, qu… [+3462 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Oantagonista.com"
+        },
+        "author": null,
+        "title": "BNDES venderá até 90% da carteira de ações - O Antagonista",
+        "description": "Após a demissão do diretor André Laloni, o BNDES decidiu estabelecer normas claras para acelerar a venda de suas ações...",
+        "url": "https://www.oantagonista.com/economia/bndes-vendera-ate-90-da-carteira-de-acoes/",
+        "urlToImage": "https://cdn.oantagonista.net/uploads/2019/10/38367333196_d9bbbd1008_o.jpg",
+        "publishedAt": "2019-10-31T13:53:00Z",
+        "content": "Após a demissão do diretor André Laloni, o BNDES decidiu estabelecer normas claras para acelerar a venda de suas ações, informa o Globo.\r\nA nova estratégia define que o banco terá de vender, nos próximo três anos, entre 70% e 90% de sua carteira de ações.\r\nO … [+162 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Noticiasconcursos.com.br"
+        },
+        "author": "Saulo Moreira",
+        "title": "Saiba como adquirir o novo cartão da Caixa sem consulta ao SPC/Serasa ainda em 2019 - Notícias Concursos",
+        "description": "A Caixa Econômica Federal, em parceria com a Elo, vai lançar um novo cartão exclusivo para crédito consignado, ou seja, com parcelas sendo descontadas diretamente na folha de pagamento do cliente. Com isso, não haverá consulta ao SPC e Serasa.O novo",
+        "url": "https://noticiasconcursos.com.br/economia/saiba-como-adquirir-o-novo-cartao-da-caixa-sem-consulta-ao-spc-serasa-ainda-em-2019/",
+        "urlToImage": "https://noticiasconcursos.com.br/wp-content/uploads/2015/10/caixa-grandee.gif",
+        "publishedAt": "2019-10-31T13:51:45Z",
+        "content": "A Caixa Econômica Federal, em parceria com a Elo, vai lançar um novo cartão exclusivo para crédito consignado, ou seja, com parcelas sendo descontadas diretamente na folha de pagamento do cliente. Com isso, não haverá consulta ao SPC e Serasa.\r\nO novo cartão … [+2084 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": "O Globo e Bloomberg News",
+        "title": "Entenda como a queda da Selic ao menor patamar da História afeta os investimentos e a economia - O Globo",
+        "description": "Taxa caiu de 5,5% para 5% ao ano. Em 2016, era quase o triplo: 14,25%",
+        "url": "https://oglobo.globo.com/economia/entenda-como-queda-da-selic-ao-menor-patamar-da-historia-afeta-os-investimentos-a-economia-24047726",
+        "urlToImage": "https://ogimg.infoglobo.com.br/in/24050668-da4-07a/FT1086A/652/header-juros-01.jpg",
+        "publishedAt": "2019-10-31T13:48:00Z",
+        "content": "RIO O Comitê de Política Monetária (Copom) reduziu nesta quarta-feira a\r\ntaxa básica de juros\r\n, a\r\nSelic\r\n,\r\nde 5,5% ao ano para 5%\r\n. Foi o terceiro corte seguido e os analistas do mercado financeiro já preveem que a taxa chegará a 4,5% no fim deste ano e a… [+6072 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Autoo.com.br"
+        },
+        "author": "Redação",
+        "title": "Nova geração do Renault Duster evolui pouco em segurança - AUTOO",
+        "description": "Modelo é avaliado pelo órgão e recebe quatro estrelas na proteção de adultos e crianças",
+        "url": "https://www.autoo.com.br/nova-geracao-do-renault-duster-evolui-pouco-em-seguranca/",
+        "urlToImage": "https://www.autoo.com.br/fotos/2019/10/960_720/ctd1_31102019_17303_960_720.jpg",
+        "publishedAt": "2019-10-31T13:46:00Z",
+        "content": "Esperada para o início de 2020 no Brasil, a segunda geração do Renault Duster recebeu 4 estrelas para a proteção de adultos no crash test do Latin NCAP. Como é possível ver nos resultados da entidade, a avaliação do Duster na proteção para adultos se equivale… [+1473 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": null,
+        "title": "Preços do boi gordo e da carne bovina são os maiores da história - Canal Rural",
+        "description": "O Centro de Estudos Avançados em Economia Aplicada (Cepea) afirma que neste caso, os efeitos da inflação não foram considerados",
+        "url": "https://canalrural.uol.com.br/noticias/pecuaria/boi/boi-gordo-carne-bovina-maiores-historia/",
+        "urlToImage": "https://canalrural.uol.com.br/wp-content/uploads/2019/02/boi-pecuária.jpg",
+        "publishedAt": "2019-10-31T13:43:00Z",
+        "content": "No caso do bezerro, o Cepea indica que em Mato Grosso do Sul, a cotação teve alta de 1,27% em um mês –  Foto: Agência IBGE Notícias\r\nOs preços do bezerro, do boi gordo e da carne bovina seguiram em alta na maior parte de outubro, impulsionados pela baixa ofer… [+1424 chars]"
+      },
+      {
+        "source": {
+          "id": "info-money",
+          "name": "InfoMoney"
+        },
+        "author": null,
+        "title": "Ações de Bradesco e Gol caem cerca de 3% após resultado; Vale tem baixa com novo impasse entre EUA e China - InfoMoney",
+        "description": "Confira os destaques da B3 na sessão desta quinta-feira (31)",
+        "url": "https://www.infomoney.com.br/mercados/acoes-do-bradesco-e-gol-caem-cerca-de-3-apos-resultado-vale-cai-com-novo-impasse-entre-eua-e-china/",
+        "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2019/08/bradesco-3.jpg?fit=900%2C534&quality=75&strip=all",
+        "publishedAt": "2019-10-31T13:29:00Z",
+        "content": "SÃO PAULO – O Ibovespa volta a cair em meio a dúvidas renovadas sobre o acordo entre Estados Unidos e China, além de repercutir a temporada de balanços. As ações do Bradesco (BBDC3;BBDC4) caem cerca de 3% após os resultados, assim como a Gol (GOLL4). Os númer… [+17306 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Estadao.com.br"
+        },
+        "author": null,
+        "title": "Entenda por que o Magazine Luiza se valorizou R$ 4,37 bilhões em apenas um dia - Você no Estadão",
+        "description": "Queridinha do mercado financeiro no Brasil, a empresa vale quase R$ 70 bilhões",
+        "url": "https://economia.estadao.com.br/noticias/geral,entenda-por-que-o-magazine-luiza-se-valorizou-r-4-37-bilhoes-em-apenas-um-dia,70003070962",
+        "urlToImage": "https://img.estadao.com.br/resources/jpg/1/1/1551746678511.jpg",
+        "publishedAt": "2019-10-31T12:48:41Z",
+        "content": "O Magazine Luiza praticamente dobrou suas vendas de comércio eletrônico no trimestre e metade do que sai das suas prateleiras já é feito por pedidos online. Somado a um lucro que aumentou 13,8% entre julho e setembro deste ano, contra o terceiro trimestre de … [+2996 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": "O Globo",
+        "title": "Com novo juro da Caixa, financiamento imobiliário pode ser reduzido em mais de R$ 100 mil - Jornal Extra",
+        "description": "Economia considera cálculo para imóveis de R$ 1 milhão. Veja mais simulações e quanto você pode economizar com nova taxa",
+        "url": "https://oglobo.globo.com/economia/com-novo-juro-da-caixa-financiamento-imobiliario-pode-ser-reduzido-em-mais-de-100-mil-1-24052868",
+        "urlToImage": "https://ogimg.infoglobo.com.br/economia/23250223-60a-963/FT1086A/652/Construcao.jpg",
+        "publishedAt": "2019-10-31T12:45:00Z",
+        "content": "RIO - A redução das taxas de juros para crédito imobiliário\r\nanunciada pela Caixa Econômica Federal na quarta-feira\r\nleva a taxa máxima de 9,5% para 8,5% ao ano, enquanto a mínima sai de 7,5% para 6,75% ao ano, a menor praticada no mercado. Simulações mostram… [+758 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Renovamidia.com.br"
+        },
+        "author": null,
+        "title": "Arábia Saudita convidou Brasil para se juntar à Opep, diz Bolsonaro - RENOVA Mídia",
+        "description": "Se ingressar, o Brasil poderá se tornar o terceiro maior produtor da Opep, depois da Arábia Saudita e do Iraque.",
+        "url": "https://renovamidia.com.br/arabia-saudita-convidou-brasil-para-se-juntar-a-opep-diz-bolsonaro/",
+        "urlToImage": "https://renovamidia.com.br/wp-content/uploads/2019/10/Arabia-Saudita-convidou-Brasil-para-Opep-diz-Bolsonaro.jpg",
+        "publishedAt": "2019-10-31T12:44:00Z",
+        "content": null
+      }
+    ]
+  },
+
+  "top-headlines-entertainment": {
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Ludmilla denuncia racismo durante premiação: 'Me chama de macaca no vídeo' - Extra",
+        "description": "A vitória de Ludmilla como Melhor Cantora do Ano no Prêmio Multishow continua dando o que falar. A artista, que foi vaiada durante a premiação, fez um desabafo...",
+        "url": "https://extra.globo.com/famosos/ludmilla-denuncia-racismo-durante-premiacao-me-chama-de-macaca-no-video-24053639.html",
+        "urlToImage": "https://extra.globo.com/incoming/24053693-7ae-3cf/w976h550-PROP/a22223.jpg",
+        "publishedAt": "2019-10-31T17:43:00Z",
+        "content": "A vitória de Ludmilla como Melhor Cantora do Ano no Prêmio Multishow continua dando o que falar. A artista, que foi vaiada durante a premiação, fez um desabafo na tarde desta quinta-feira no Instagram compartilhando um vídeo em que é possível ouvir alguém gri… [+902 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Istoe.com.br"
+        },
+        "author": "Estadão Conteúdo",
+        "title": "'Está sendo muito difícil aceitar', diz Rosana Jatobá sobre morte da mãe - Istoe",
+        "description": "A jornalista Rosana Jatobá usou as redes sociais nesta quarta-feira, 30, para prestar uma homenagem para a mãe e lamentar a morte dela. “Das lembranças que carrego comigo, seu sorriso é a mais forte”, escreveu na legenda da foto em preto e branco, em que as d…",
+        "url": "https://istoe.com.br/est-sendo-muito-difcil-aceitar-diz-rosana-jatob-sobre-morte-da-me/",
+        "urlToImage": "https://cdn-istoe-ssl.akamaized.net/wp-content/themes/tema_istoe/assets/images/share/istoe_facebook.png",
+        "publishedAt": "2019-10-31T16:45:00Z",
+        "content": "A jornalista Rosana Jatobá usou as redes sociais nesta quarta-feira, 30, para prestar uma homenagem para a mãe e lamentar a morte dela. “Das lembranças que carrego comigo, seu sorriso é a mais forte”, escreveu na legenda da foto em preto e branco, em que as d… [+1103 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "Kate Middleton está tentando ajudar Meghan Markle a lidar com dificuldades - UOL",
+        "description": "Kate Middleton está tentando ajudar Meghan Markle em seu período de adaptação à rotina da família real.Segundo Phil Danpier, especialista na realeza britânica, em entrevista para o Express UK, a mulher do Príncipe William entrou em contato com Markle após",
+        "url": "https://tvefamosos.uol.com.br/noticias/redacao/2019/10/31/kate-middleton-esta-tentando-ajudar-meghan-markle-a-lidar-com-dificuldades.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/entretenimento/ba/2019/07/13/kate-middleton-e-meghan-markle-assistem-a-final-feminina-de-torneio-de-tenis-em-wimbledon-1563029914702_v2_615x300.jpg",
+        "publishedAt": "2019-10-31T16:28:41Z",
+        "content": "Kate Middleton está tentando ajudar Meghan Markle em seu período de adaptação à rotina da família real.\r\nSegundo Phil Danpier, especialista na realeza britânica, em entrevista para o Express UK, a mulher do Príncipe William entrou em contato com Markle após e… [+661 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "Rodrigo pede que público elimine Bifão: \"Melhorar a energia dessa casa\" - UOL",
+        "description": "Em conversa com Diego e Thayse na tarde de hoje, Rodrigo afirmou que torce muito para que a roça da semana termine com a permanência de Diego e melhore o clima já tenso da casa.\"Quero o público fazendo mutirão, vamos melhorar a energia da casa\", alfinetou",
+        "url": "https://tvefamosos.uol.com.br/noticias/redacao/2019/10/31/rodrigo-pede-que-publico-elimine-bifao-melhorar-a-energia-dessa-casa.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/entretenimento/58/2019/10/31/rodrigo-conversa-com-diego-e-thayse-1572538344842_v2_615x300.png",
+        "publishedAt": "2019-10-31T16:14:47Z",
+        "content": "Em conversa com Diego e Thayse na tarde de hoje, Rodrigo afirmou que torce muito para que a roça da semana termine com a permanência de Diego e melhore o clima já tenso da casa.\r\n\"Quero o público fazendo mutirão, vamos melhorar a energia da casa\", alfinetou R… [+385 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Fernando e Maiara compartilham clique de momento íntimo: 'Largados e pelados' - Extra",
+        "description": "Fernando, da dupla com Sorocaba, compartilhou nesta quinta-feira uma foto em que avisa que ele e Maiara, sua namorada, estão nus.",
+        "url": "https://extra.globo.com/famosos/fernando-maiara-compartilham-clique-de-momento-intimo-largados-pelados-24053440.html",
+        "urlToImage": "https://extra.globo.com/incoming/24053469-ad1-e9f/w976h550-PROP/fernando-e-maiara.jpg",
+        "publishedAt": "2019-10-31T16:13:00Z",
+        "content": "Fernando, da dupla com Sorocaba, compartilhou nesta quinta-feira uma foto em que avisa que ele e Maiara, sua namorada, estão nus. \"Largados e pelados\", escreveu na legenda.\r\nFernando e Maiara, nus após um jantar romântico Foto: Reprodução/Instagram\r\n\"Só eu e … [+1451 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Omelete.com.br"
+        },
+        "author": "Gabriel Avila",
+        "title": "Game of Thrones | George Martin não se envolverá em séries até terminar livro - Omelete",
+        "description": "George R. R. Martin não se envolverá em séries de Game of Thrones até terminar último livro",
+        "url": "https://www.omelete.com.br/game-thrones/game-of-thrones-george-r-r-martin-nao-escrevera-serie-ate-terminar-livro",
+        "urlToImage": "https://cdn.ome.lt/kTl8yHI82M17z97HTdkyQ8aw3XA=/1200x630/smart/extras/conteudos/george-martin-series.jpg",
+        "publishedAt": "2019-10-31T16:04:00Z",
+        "content": "George R. R. Martin, o escritor dos livros que serviram de base para Game of Thrones, revelou que não vai se envolver com séries de TV da franquia até terminar a próxima publicação. Em uma postagem em seu site, o autor comentou o anúncio de House of The Drago… [+1648 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Omelete.com.br"
+        },
+        "author": "Arthur Eloi",
+        "title": "Série de The Witcher ganha trailer inédito e data pela Netflix - Omelete",
+        "description": "Adaptação dos livros de Andrzej Sapkowski será lançada ainda em 2019, em dezembro",
+        "url": "https://www.omelete.com.br/netflix/the-witcher-trailer-data",
+        "urlToImage": "https://cdn.ome.lt/ZzgLfUA9rPfbSBndqMKIrKDR6Yo=/1200x630/smart/extras/conteudos/witcher_VPhup6J.jpg",
+        "publishedAt": "2019-10-31T16:01:00Z",
+        "content": "A série de The Witcher pela Netflix, adaptação da saga original de Andrzej Sapkowski que também inspirou a trilogia de games da CD Projekt RED, teve um trailer completo divulgado, que revela a data de estreia para 20 de dezembro. Veja acima.\r\nThe Witcher tem … [+360 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Paloma e Marcos se beijam em sonho - gshow",
+        "description": "Enquanto Alberto conta para a costureira a história de Don Juan, de Lord Byron, no capítulo de 'Bom Sucesso' desta quinta-feira, 31/10, ela viaja em sua imaginação",
+        "url": "https://gshow.globo.com/novelas/bom-sucesso/vem-por-ai/noticia/paloma-e-marcos-se-beijam-em-sonho.ghtml",
+        "urlToImage": "https://s2.glbimg.com/3VpV5ROzokN1kwXA_JTljAA2FkA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2019/P/P/G2N57ITeAUjiYo6zEzPg/paloma-grazi-massafera-julia-marcos-romulo-estrela-don-juan.jpg",
+        "publishedAt": "2019-10-31T16:01:00Z",
+        "content": "Quando Alberto (Antonio Fagundes) começa a ler com Paloma (Grazi Massafera), a costureira viaja longe! Depois de voltar do Pão de Açúcar com Marcos (Romulo Estrela), a acompanhante conta como foi a experiência para seu patrão, e os dois conversam sobre Don Ju… [+1544 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Istoe.com.br"
+        },
+        "author": "Da Redação",
+        "title": "Ana Hickmann faz brincadeira sobre vale-refeição e causa revolta nas redes sociais - Istoe",
+        "description": "Uma publicação de Ana Hickmann não caiu nada bem nas redes sociais. A apresentadora causou polêmica ao postar uma foto ao lado de uma mesa de café da manhã recheada e com a mensagem: “Caiu o VR! (vale-refeição)” e um emoji de comemoração. “Olá, pessoal! Felic…",
+        "url": "https://istoe.com.br/ana-hickmann-faz-brincadeira-sobre-vale-refeicao-e-causa-revolta-nas-redes-sociais/",
+        "urlToImage": "https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2019/06/anahickmann.jpg",
+        "publishedAt": "2019-10-31T15:51:00Z",
+        "content": "Uma publicação de Ana Hickmann não caiu nada bem nas redes sociais. A apresentadora causou polêmica ao postar uma foto ao lado de uma mesa de café da manhã recheada e com a mensagem: “Caiu o VR! (vale-refeição)” e um emoji de comemoração. Olá, pessoal! Felici… [+502 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uai.com.br"
+        },
+        "author": "Portal Uai Entretenimento, Portal Uai Entretenimento",
+        "title": "Raul Gil fala sobre problema no coração e diz não ter medo de morrer - Portal Uai",
+        "description": "Ele revelou que foi internado, em setembro deste ano, para tratar o problema e",
+        "url": "https://www.uai.com.br/app/noticia/e-mais/2019/10/31/noticia-e-mais,252786/raul-gil-fala-sobre-problema-no-coracao-e-diz-nao-ter-medo-de-morrer.shtml",
+        "urlToImage": "https://imgsapp2.uai.com.br/app/noticia_133890394703/2019/10/31/252786/20191031125703286118e.jpg",
+        "publishedAt": "2019-10-31T15:32:00Z",
+        "content": "Raul Gil falou na ltima tera-feira, 29, em entrevista ao TV Fama, da Rede TV!, sobre o seu quadro de arritmia cardaca e o que pensa sobre a morte. Ele revelou que foi internado, em setembro deste ano, para tratar o problema e \"rezou muito\" para se recuperar.\"… [+1004 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Jovemnerd.com.br"
+        },
+        "author": null,
+        "title": "O Exterminador do Futuro: Destino Sombrio | Crítica - NerdBunker - Nerd Bunker",
+        "description": "Talento dos astros e ação caprichada não bastam para salvar a franquia",
+        "url": "https://jovemnerd.com.br/nerdbunker/o-exterminador-do-futuro-destino-sombrio-critica/",
+        "urlToImage": "https://uploads.jovemnerd.com.br/wp-content/uploads/2019/10/exterminador-do-futuro-arnold-1.jpg",
+        "publishedAt": "2019-10-31T15:23:00Z",
+        "content": "Estamos fingindo que os outros filmes foram um sonho ruim. Ou uma linha temporal alternativa, que é algo admissível no nosso multiverso, disse James Cameron em uma entrevista em setembro de 2017, referindo-se aos três antecessores de O Exterminador do Futuro:… [+5321 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Purepeople.com.br"
+        },
+        "author": null,
+        "title": "Final da novela 'A Dona do Pedaço': Josiane é surpreendida pelo pai ao admitir ter matado Jardel - Purepeople.com.br",
+        "description": "Amadeu (Marcos Palmeira) vai decidir defender a filha, Josiane (Agatha Moreira), na reta final da novela A Dona do Pedaço. O advogado toma essa decisão quando a vilã lhe confessa todos os seus crimes....",
+        "url": "https://www.purepeople.com.br/noticia/final-da-novela-a-dona-do-pedaco-josiane-e-surpreendida-pelo-pai-ao-admitir-ter-matado-jardel_a279973/1",
+        "urlToImage": "https://static1.purepeople.com.br/articles/3/27/99/73/@/3180508-nos-ultimos-capitulos-da-novela-a-dona-opengraph_1200-2.jpg",
+        "publishedAt": "2019-10-31T15:18:00Z",
+        "content": "Amadeu (Marcos Palmeira) vai decidir defender a filha, Josiane (Agatha Moreira), na reta final da novela \"A Dona do Pedaço\". O advogado toma essa decisão quando a vilã lhe confessa todos os seus crimes. Apesar de defendida no tribunal pelo pai, a vilã não esc… [+3632 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Sbt.com.br"
+        },
+        "author": null,
+        "title": "Pabllo Vittar diz se está a favor de Anitta ou Ludmilla - SBT - Sistema Brasileiro de Televisão",
+        "description": null,
+        "url": "https://www.sbt.com.br/jornalismo/fofocalizando/noticia/132109-pabllo-vittar-diz-se-esta-a-favor-de-anitta-ou-ludmilla",
+        "urlToImage": null,
+        "publishedAt": "2019-10-31T14:58:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "De Férias com Ex tem briga por comida, Lipe \"traído\" e Naka com novo affair - UOL",
+        "description": "O episódio de hoje do De Férias com o Ex: Celebs, da MTV, promete muita confusão com a chegada de João Brey, ex de Any, ao programa.\"Eu vivi lá dentro uma experiência surreal, que nunca na minha vida imaginei que pudesse ser tão intensa. Tive dificuldades",
+        "url": "https://tvefamosos.uol.com.br/noticias/redacao/2019/10/31/de-ferias-com-o-ex-celeb-tera-confusao-e-chegada-do-ex-de-any-hoje.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/entretenimento/4d/2019/10/31/joao-brey-e-marcelle-durante-encontro-no-de-ferias-com-o-excelebs-casal-vai-gerar-brigas-1572531184428_v2_615x300.png",
+        "publishedAt": "2019-10-31T14:16:02Z",
+        "content": "O episódio de hoje do De Férias com o Ex: Celebs, da MTV, promete muita confusão com a chegada de João Brey, ex de Any, ao programa.\r\n\"Eu vivi lá dentro uma experiência surreal, que nunca na minha vida imaginei que pudesse ser tão intensa. Tive dificuldades n… [+1449 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Estudante tatua rosto de autor do hit 'Caneta azul' no peito - G1",
+        "description": "Joselito Júnior já tinha uma tatuagem, também feita pelo amigo, de outro meme da internet. Na coxa, ele carrega o desenho do “Negão do WhatsApp”.",
+        "url": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2019/10/31/estudante-tatua-rosto-de-autor-do-hit-caneta-azul.ghtml",
+        "urlToImage": "https://s2.glbimg.com/tob9x56U7AkhvhIhrjATY2ZAoxA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/J/O/xmiFOBTaK55My2unchNw/zul-caneta-tatuagem.jpg",
+        "publishedAt": "2019-10-31T13:47:00Z",
+        "content": "Diego, tatuador, traz essa ideia de memes E eu gosto, porque eu vejo isso como a ideia do artista poder expressar sua arte. Essa vida só se vive uma vez e, se você não fizer o que gosta de fazer, lamentavelmente, vai ter perdido a sua vida. Só para deixar cla… [+1158 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "Thayse diz que Andréa é seu alvo na roça: \"Me senti extremamente humilhada\" - UOL",
+        "description": "Em conversa com Sabrina na madrugada de hoje, Thayse afirmou que votará em Andréa na próxima roça por ter se sentido humilhada quando a socialite começou a ignorá-la. Segundo a pernambucana, Andréa não respondeu nenhum cumprimento cotidiano e não tem dire",
+        "url": "https://tvefamosos.uol.com.br/noticias/redacao/2019/10/31/thayse-diz-que-andrea-e-seu-alvo-na-roca-me-senti-extremamente-humilhada.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/entretenimento/be/2019/10/31/thayse-conversa-com-sabrina-na-area-externa-1572529195075_v2_615x300.png",
+        "publishedAt": "2019-10-31T13:41:27Z",
+        "content": "Em conversa com Sabrina na madrugada de hoje, Thayse afirmou que votará em Andréa na próxima roça por ter se sentido humilhada quando a socialite começou a ignorá-la. Segundo a pernambucana, Andréa não respondeu nenhum cumprimento cotidiano e não tem direito … [+715 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Clicrbs.com.br"
+        },
+        "author": "GaúchaZH",
+        "title": "\"Game of Thrones\": Emilia Clarke revela quem esqueceu copo de café em cena que virou meme - GauchaZH",
+        "description": "Na última temporada da série, utensílio foi flagrado por fãs na mesa em que estava sentada Daenerys Targaryen",
+        "url": "https://gauchazh.clicrbs.com.br/cultura-e-lazer/tv/noticia/2019/10/game-of-thrones-emilia-clarke-revela-quem-esqueceu-copo-de-cafe-em-cena-que-virou-meme-ck2epccez0bgu01n3nolivnhl.html",
+        "urlToImage": "https://www.rbsdirect.com.br/imagesrc/25232496.jpg?w=1200&h=630&a=c",
+        "publishedAt": "2019-10-31T13:08:00Z",
+        "content": "Receba gratuitamente o melhor de GaúchaZH no seu e-mail e mantenha-se sempre atualizado."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "Aos 54 anos, Isadora Ribeiro é avó pela 1ª vez: \"Explodindo de felicidade\" - UOL",
+        "description": "Aos 54 anos, Isadora Ribeiro se tornou vovó! A primogênita da atriz, Maria Antônia Sampaio, de 22 anos, deu à luz sua primeira filha, Catarina, de seu relacionamento com Bruno Paranhos.Foi Isadora quem deu a notícia no Instagram, publicando uma foto logo",
+        "url": "https://tvefamosos.uol.com.br/noticias/redacao/2019/10/31/aos-54-anos-isadora-ribeira-e-avo-pela-1-vez-explodindo-de-felicidade.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/entretenimento/8b/2019/10/27/isadora-ribeiro-deixa-os-seios-a-mostra-1572180100556_v2_300x200.jpg",
+        "publishedAt": "2019-10-31T13:07:38Z",
+        "content": "Aos 54 anos, Isadora Ribeiro se tornou vovó! A primogênita da atriz, Maria Antônia Sampaio, de 22 anos, deu à luz sua primeira filha, Catarina, de seu relacionamento com Bruno Paranhos.\r\nFoi Isadora quem deu a notícia no Instagram, publicando uma foto logo ap… [+551 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uai.com.br"
+        },
+        "author": "Portal Uai Entretenimento, Portal Uai Entretenimento",
+        "title": "Halloween: famosos capricham na fantasia do dia das bruxas; veja fotos - Portal Uai",
+        "description": "De Cardi B a Sabrina Sato, diversas celebridades entraram no clima da comemora��o",
+        "url": "https://www.uai.com.br/app/noticia/mexerico/2019/10/31/noticias-mexerico,252783/halloween-famosos-capricham-na-fantasia-do-dia-das-bruxas-veja-fotos.shtml",
+        "urlToImage": "https://imgsapp2.uai.com.br/app/noticia_133890394703/2019/10/31/252783/20191031103127716355a.jpg",
+        "publishedAt": "2019-10-31T13:05:00Z",
+        "content": "Anitta encontra irmo descoberto aps exame de DNA"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pleno.news"
+        },
+        "author": null,
+        "title": "Gusttavo Lima se recusa a ir em programações da Globo - Pleno News",
+        "description": "Cantor tem mais retorno nas redes sociais",
+        "url": "https://pleno.news/entretenimento/tv/gusttavo-lima-se-recusa-a-ir-em-programacoes-da-globo.html",
+        "urlToImage": "https://pleno.news/wp-content/uploads/2019/10/4f0480c431b9b9013b87319df1938819_418991.png",
+        "publishedAt": "2019-10-31T13:05:00Z",
+        "content": "Gusttavo Lima é, atualmente, o principal artista brasileiro Foto: Reprodução\r\nCom o maior cachê atual entre os artistas brasileiros e em primeiro lugar no ranking dos mais ouvidos do país, Gusttavo Lima tem esnobado a maior emissora do país, a Rede Globo. O c… [+560 chars]"
+      }
+    ]
+  },
+
+  "top-headlines-general": {
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Uruguai convoca embaixador brasileiro por declarações de Bolsonaro sobre eleição presidencial - G1",
+        "description": "Presidente brasileiro disse a jornal que torce por 'eleição de alguém mais ligado ao nosso time'. Candidato opositor Luis Lacalle Pou também rechaçou declaração.",
+        "url": "https://g1.globo.com/mundo/noticia/2019/10/31/uruguai-convoca-embaixador-brasileiro-por-declaracoes-de-bolsonaro-sobre-eleicao.ghtml",
+        "urlToImage": "https://s2.glbimg.com/SAj8ceKTq7t-pcl-jMdDqleWakE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/5/8/r3k8SpQCqnfpnMuKyCmg/000-1ls6o5.jpg",
+        "publishedAt": "2019-10-31T18:00:00Z",
+        "content": "A chancelaria uruguaia convocou nesta quinta-feira (31) o embaixador brasileiro Antônio Simões para pedir \"explicações\" sobre as declarações do presidente Jair Bolsonaro a respeito das eleições no Uruguai, informou o Ministério das Relações Exteriores em comu… [+2351 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metropoles.com"
+        },
+        "author": null,
+        "title": "Vídeo. Valdívia, ex-Palmeiras, entrega empanada nas ruas do Chile - Metrópoles",
+        "description": "Junto com o irmão, o meio-campista do Colo-Colo carregava uma bandeja de comida numa estação de metrô em Santiago durante os protestos",
+        "url": "https://www.metropoles.com/esportes/futebol/video-valdivia-ex-palmeiras-entrega-empanada-nas-ruas-do-chile",
+        "urlToImage": "https://uploads.metropoles.com/wp-content/uploads/2019/10/31145525/Vald%C3%ADvia-com-empadas.jpg",
+        "publishedAt": "2019-10-31T17:56:00Z",
+        "content": "Ex-jogador do Palmeiras, Valdívia se infiltrou nos protestos que ocorrem no Chile para entregar empanadas aos manifestantes. O jogador foi flagrado por fãs na manhã desta quinta-feira (31/10/2019) ao lado de uma estação de metrô em Santiago.\r\nMais sobre o ass… [+1108 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Superesportes.com.br"
+        },
+        "author": "Superesportes, Superesportes",
+        "title": "Di Santo entende torcedores do Atlético, solta palavrão e diz que se xingaria caso estivesse na arquibancada - Superesportes",
+        "description": "Atacante argentino perdeu pênalti na derrota alvinegra para a Chapecoense",
+        "url": "https://www.mg.superesportes.com.br/app/noticias/futebol/atletico-mg/2019/10/31/noticia_atletico_mg,2922725/atletico-di-santo-diz-que-se-xingaria-se-fosse-torcedor.shtml",
+        "urlToImage": "https://imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2019/10/31/2922725/20191031150056619971u.jpg",
+        "publishedAt": "2019-10-31T17:52:00Z",
+        "content": "ATLÉTICO\r\nAtacante argentino perdeu pênalti na derrota alvinegra para a Chapecoense\r\nAo longo da partida, torcedores protestaram contra a diretoria, o técnico Vagner Mancini e jogadores. Di Santo, que tem moral com a torcida, disse que, se estivesse na arquib… [+1488 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Redebrasilatual.com.br"
+        },
+        "author": "Cláudia Motta, para a RBA",
+        "title": "Promotora fã de Bolsonaro que desmentiu porteiro arquivou caso Amarildo - Rede Brasil Atual",
+        "description": "",
+        "url": "https://www.redebrasilatual.com.br/politica/2019/10/promotora-carmen-fa-bolsonaro-amarildo/",
+        "urlToImage": "https://www.redebrasilatual.com.br/wp-content/uploads/2019/10/promotora-carmen.jpg",
+        "publishedAt": "2019-10-31T17:06:00Z",
+        "content": "São Paulo A promotora Carmen Eliza Bastos de Carvalho, que integra a equipe do Ministério Público do Rio de Janeiro responsável por investigar o assassinato de Marielle Franco, faz parte também da lista de frequentadores de redes sociais declaradamente fãs de… [+7822 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Eduardo Bolsonaro diz que, 'se esquerda radicalizar', resposta 'pode ser via um novo AI-5' - G1",
+        "description": "Medida seria adotada na hipótese de haver sequestros de aviões e autoridades e mortes de policiais em protestos de rua.",
+        "url": "https://g1.globo.com/politica/noticia/2019/10/31/eduardo-bolsonaro-diz-que-se-esquerda-radicalizar-resposta-pode-ser-via-um-novo-ai-5.ghtml",
+        "urlToImage": "https://s2.glbimg.com/-94aAgHf9Mealk9F09DIz78UN0g=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/8049686.jpg",
+        "publishedAt": "2019-10-31T17:01:00Z",
+        "content": "O deputado Eduardo Bolsonaro (PSL-SP), filho do presidente Jair Bolsonaro, afirmou em uma entrevista que, se a esquerda radicalizar no Brasil, uma das respostas do governo poderá ser via um novo AI-5. Eduardo deu a declaração ao falar sobre os protesto de rua… [+2071 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Sem Andrés e com caras fechadas: viajamos com o Corinthians após a derrota que faz Carille balançar - globoesporte.com",
+        "description": "Repórter do GloboEsporte.com retorna a São Paulo no mesmo voo da delegação alvinegra",
+        "url": "https://globoesporte.globo.com/futebol/times/corinthians/noticia/sem-andres-e-com-caras-fechadas-viajamos-com-o-corinthians-apos-a-derrota-que-faz-carille-balancar.ghtml",
+        "urlToImage": "https://s2.glbimg.com/Q02XSWlkm0o58qAAr7oDlji0nwo=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/8048058.jpg",
+        "publishedAt": "2019-10-31T16:38:00Z",
+        "content": "Jogadores, dirigentes e demais profissionais do Corinthians viajaram em avião de carreira, mas não foram importunados por torcedores que também estavam na aeronave. \r\n O presidente Andrés Sanchez não viajou com o grupo. Ele seguiu diretamente de Maceió para o… [+1502 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "WhatsApp traz função de desbloqueio com biometria para o Android - G1",
+        "description": "Ferramenta permite que o aplicativo peça credencial de impressão digital antes de dar acesso às conversas. Função estava disponível no iPhone desde fevereiro.",
+        "url": "https://g1.globo.com/economia/tecnologia/noticia/2019/10/31/whatsapp-traz-funcao-de-desbloqueio-com-biometria-para-o-android.ghtml",
+        "urlToImage": "https://s2.glbimg.com/M_jS929cvhHpSjgWtzJlzGd9I-U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/4/M/T2gsreTEaBSDgPCiTBmg/whatsapp-ronaldo-prass.jpg",
+        "publishedAt": "2019-10-31T16:26:00Z",
+        "content": "O WhatsApp anunciou nesta quinta-feira (31) que vai trazer para os celulares Android uma função de bloquear a tela e fazer o desbloqueio com reconhecimento de impressão digital do aparelho. A função já estava disponível para iPhones desde fevereiro. Apesar di… [+973 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metrojornal.com.br"
+        },
+        "author": "Angela Correa",
+        "title": "Número de desempregados tem leve queda e taxa de informalidade cresce 41%, mostra IBGE - Metro Jornal",
+        "description": "Estadão Conteúdo - 2019/10/31",
+        "url": "https://www.metrojornal.com.br/foco/2019/10/31/numero-de-desempregados-tem-leve-queda-e-taxa-de-informalidade-cresce-41-mostra-ibge.html",
+        "urlToImage": "https://media.metrolatam.com/2018/08/07/11982898high-72eb4e7a9e4d3b10c8913178a4304f80-1200x800.jpg",
+        "publishedAt": "2019-10-31T16:25:03Z",
+        "content": "A taxa de desocupação no Brasil ficou em 11,8% no trimestre encerrado em setembro, de acordo com os dados da Pesquisa Nacional por Amostra de Domicílios Contínua (Pnad Contínua) divulgados nesta quinta-feira, 31, pelo Instituto Brasileiro de Geografia e Estat… [+2153 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Os alimentos que podem ajudar o cérebro a funcionar melhor - G1",
+        "description": "\"A alimentação é um dos poucos fatores de risco para doenças neurológicas passível de ser modificável e controlável\", afirmou o médico Gurutz Linazasoro, porta-voz da Sociedade Espanhola de Neurologia.",
+        "url": "https://g1.globo.com/ciencia-e-saude/viva-voce/noticia/2019/10/31/os-alimentos-que-podem-ajudar-o-cerebro-a-funcionar-melhor.ghtml",
+        "urlToImage": "https://s2.glbimg.com/IMUa4luWckXcWqIjOpfYrxIURTM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/E/l/shBmAXRpGneCO1SIRxeg/dan-gold-4-jhdo54byg-unsplash.jpg",
+        "publishedAt": "2019-10-31T16:20:00Z",
+        "content": "Uma alimentação de qualidade é peça-chave para nossa saúde em geral, e para o nosso cérebro, em particular. \"A alimentação é um dos poucos fatores de risco para doenças neurológicas passível de ser modificável e controlável\", afirmou à BBC News Mundo (serviço… [+2968 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Colunadofla.com"
+        },
+        "author": null,
+        "title": "Goiás x Flamengo – Expectativas dos colunistas - Coluna do Fla",
+        "description": "O Flamengo enfrenta o Goiás em um Serra Dourada que estará lotado na noite desta quinta-feira (31). Todos os ingressos foram vendidos para o duelo da 29ª rodada do Brasileirão, que tem o Rubro-Negro na liderança isolada e o Esmeraldino tentando se aproximar d…",
+        "url": "https://colunadofla.com/2019/10/goias-x-flamengo-expectativas-dos-colunistas/",
+        "urlToImage": "https://colunadofla.com/wp-content/uploads/2019/10/1-modelo-de-jogo.png",
+        "publishedAt": "2019-10-31T16:11:32Z",
+        "content": "O Flamengo enfrenta o Goiás em um Serra Dourada que estará lotado na noite desta quinta-feira (31). Todos os ingressos foram vendidos para o duelo da 29ª rodada do Brasileirão, que tem o Rubro-Negro na liderança isolada e o Esmeraldino tentando se aproximar d… [+2794 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Câmara dos EUA aprova regras para seguir inquérito de impeachment contra Trump - G1",
+        "description": "Casa controlada pelos democratas aprovou medida que prevê audiências públicas e a divulgação de transcrições de procedimentos realizados a portas fechadas.",
+        "url": "https://g1.globo.com/mundo/noticia/2019/10/31/camara-dos-eua-aprova-regras-para-seguir-inquerito-de-impeachment-contra-trump.ghtml",
+        "urlToImage": "https://s2.glbimg.com/oIJOAaVaC1pxHWupPrquoxDyEV4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/3/R/2AxQEyTdOBHXUAlW0gtQ/2019-10-10t213553z-1888981558-rc1f4e868fd0-rtrmadp-3-usa-trump.jpg",
+        "publishedAt": "2019-10-31T16:04:00Z",
+        "content": "Os democratas na Câmara dos Deputados dos Estados Unidos aprovaram nesta quinta-feira (31) uma resolução que estabelece os próximos passos no processo de impeachment contra o presidente norte-americano, Donald Trump. A votação foi o primeiro teste formal de a… [+2598 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Omelete.com.br"
+        },
+        "author": "Arthur Eloi",
+        "title": "Série de The Witcher ganha trailer inédito e data pela Netflix - Omelete",
+        "description": "Adaptação dos livros de Andrzej Sapkowski será lançada ainda em 2019, em dezembro",
+        "url": "https://www.omelete.com.br/netflix/the-witcher-trailer-data",
+        "urlToImage": "https://cdn.ome.lt/ZzgLfUA9rPfbSBndqMKIrKDR6Yo=/1200x630/smart/extras/conteudos/witcher_VPhup6J.jpg",
+        "publishedAt": "2019-10-31T16:01:00Z",
+        "content": "A série de The Witcher pela Netflix, adaptação da saga original de Andrzej Sapkowski que também inspirou a trilogia de games da CD Projekt RED, teve um trailer completo divulgado, que revela a data de estreia para 20 de dezembro. Veja acima.\r\nThe Witcher tem … [+360 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Presidente do Chile diz que Madri se ofereceu para sediar Conferência do Clima da ONU - G1",
+        "description": "Sebastián Piñera anunciou na quarta-feira (30) que o Chile não sediaria a COP 25 em dezembro.",
+        "url": "https://g1.globo.com/natureza/noticia/2019/10/31/presidente-do-chile-diz-que-madri-se-ofereceu-para-sediar-conferencia-do-clima-da-onu.ghtml",
+        "urlToImage": "https://s2.glbimg.com/S8ozUtGh46SB2KR-jAeZBM_h_Kc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/P/f/fBSDj9QvuYQot9HEYJ2g/pinera-2.png",
+        "publishedAt": "2019-10-31T15:59:00Z",
+        "content": "O presidente do Chile, Sebastián Piñera, disse que a Espanha se ofereceu para sediar a Conferência do Clima da Organização das Nações Unidas (ONU), conhecida como COP 25. O anúncio foi feito por Piñera em um pronunciamento público na capital chilena Santiago … [+1689 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": "Ana Paula Ribeiro",
+        "title": "Bradesco vai fechar 450 agências até 2020; objetivo é conter avanço de despesas - Jornal O Globo",
+        "description": "Presidente do banco, Octavio de Lazari, diz que reforma da Previdência vai garantir a maior oferta de produtos e serviços financeiros à população",
+        "url": "https://oglobo.globo.com/economia/bradesco-vai-fechar-450-agencias-ate-2020-objetivo-conter-avanco-de-despesas-24053331",
+        "urlToImage": "https://ogimg.infoglobo.com.br/in/24053321-88a-48d/FT1086A/652/82031524_RIRio-de-JaneiroRJ02-04-2019Agencia-do-banco-Bradesco-na-Avenida-Rio-Branco-cent.jpg",
+        "publishedAt": "2019-10-31T15:38:00Z",
+        "content": "SÃO PAULO - O\r\n Bradesco\r\nplaneja\r\nfechar 450 agências\r\naté o ano que vem com uma das formas de conter o aumento de despesas da instituição, que estão subindo acima do planejado pela instituição financeira. Apesar da pressão de custos, o banco espera manter a… [+3830 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Jovemnerd.com.br"
+        },
+        "author": null,
+        "title": "O Exterminador do Futuro: Destino Sombrio | Crítica - NerdBunker - Nerd Bunker",
+        "description": "Talento dos astros e ação caprichada não bastam para salvar a franquia",
+        "url": "https://jovemnerd.com.br/nerdbunker/o-exterminador-do-futuro-destino-sombrio-critica/",
+        "urlToImage": "https://uploads.jovemnerd.com.br/wp-content/uploads/2019/10/exterminador-do-futuro-arnold-1.jpg",
+        "publishedAt": "2019-10-31T15:23:00Z",
+        "content": "Estamos fingindo que os outros filmes foram um sonho ruim. Ou uma linha temporal alternativa, que é algo admissível no nosso multiverso, disse James Cameron em uma entrevista em setembro de 2017, referindo-se aos três antecessores de O Exterminador do Futuro:… [+5321 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Purepeople.com.br"
+        },
+        "author": null,
+        "title": "Final da novela 'A Dona do Pedaço': Josiane é surpreendida pelo pai ao admitir ter matado Jardel - Purepeople.com.br",
+        "description": "Amadeu (Marcos Palmeira) vai decidir defender a filha, Josiane (Agatha Moreira), na reta final da novela A Dona do Pedaço. O advogado toma essa decisão quando a vilã lhe confessa todos os seus crimes....",
+        "url": "https://www.purepeople.com.br/noticia/final-da-novela-a-dona-do-pedaco-josiane-e-surpreendida-pelo-pai-ao-admitir-ter-matado-jardel_a279973/1",
+        "urlToImage": "https://static1.purepeople.com.br/articles/3/27/99/73/@/3180508-nos-ultimos-capitulos-da-novela-a-dona-opengraph_1200-2.jpg",
+        "publishedAt": "2019-10-31T15:18:00Z",
+        "content": "Amadeu (Marcos Palmeira) vai decidir defender a filha, Josiane (Agatha Moreira), na reta final da novela \"A Dona do Pedaço\". O advogado toma essa decisão quando a vilã lhe confessa todos os seus crimes. Apesar de defendida no tribunal pelo pai, a vilã não esc… [+3632 chars]"
+      },
+      {
+        "source": {
+          "id": "info-money",
+          "name": "InfoMoney"
+        },
+        "author": null,
+        "title": "“Queda de juros ajuda, mas não faz mágica”, diz ex-diretor do Banco Central - InfoMoney",
+        "description": "Para José Júlio Senna, do FGV/Ibre, juros baixos não são garantia de recuperação da economia",
+        "url": "https://www.infomoney.com.br/economia/queda-de-juros-ajuda-mas-nao-faz-magica-diz-ex-diretor-do-banco-central/",
+        "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2019/06/juros_juros-futuros_renda-fixa-1.jpg?fit=900%2C600&quality=75&strip=all",
+        "publishedAt": "2019-10-31T14:23:00Z",
+        "content": "O atual cenário de inflação baixa e de necessidade de estimular a atividade econômica são indicativos de que o ciclo de juros baixos no Brasil deve ser longo, analisa o economista e chefe do Centro de Estudos Monetários, do FGV/Ibre, José Júlio Senna. Ele, qu… [+3462 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bbc.com"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Estado Islâmico: O que mostram as imagens divulgadas pelos EUA da operação que levou à morte o líder Abu Bakr al-Baghdadi - BBC News Brasil",
+        "description": "Chefe do Comando Central dos EUA, general Kenneth McKenzie, disse que o ataque destruidor deixou os prédios parecendo \"um estacionamento cheio de grandes buracos\".",
+        "url": "https://www.bbc.com/portuguese/internacional-50247173",
+        "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p07sm4vk.jpg",
+        "publishedAt": "2019-10-31T13:54:09Z",
+        "content": "Vídeos divulgados pelos EUA mostram operação que matou líder do Estado Islâmico\r\nO relato feito pelo presidente americano Donald Trump foi detalhado e repleto de adjetivos: \"o líder do Estado Islâmico morreu como um cachorro, como um covarde\" após entrar em u… [+5689 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Vale eleva nível de segurança da barragem Forquilha IV em Ouro Preto - G1",
+        "description": "De acordo com a mineradora, uma anomalia foi identificada na barragem durante inspeção de rotina. Nível de emergência 1 não requer evacuação.",
+        "url": "https://g1.globo.com/mg/minas-gerais/noticia/2019/10/31/vale-eleva-nivel-de-seguranca-da-barragem-forquilha-iv-em-ouro-preto.ghtml",
+        "urlToImage": "https://s2.glbimg.com/3EQhgIJO8VCO-A_P2lpLAPl9Hp8=/1200x/smart/filters:cover():strip_icc()/s01.video.glbimg.com/x720/8049268.jpg",
+        "publishedAt": "2019-10-31T13:47:00Z",
+        "content": "A Vale afirmou nesta quinta-feira (31) que elevou o nível de segurança da barragem Forquilha IV para 1. Ela faz parte do complexo da Mina Fábrica, em Ouro Preto, na Região Central de Minas Gerais. O protocolo de emergência foi elevado para o nível 1, que não … [+1100 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Gazetadopovo.com.br"
+        },
+        "author": "Juliano Augusto Pedrozo",
+        "title": "CPI das fake news quer ouvir Globo e Witzel sobre citação de Bolsonaro - Gazeta do Povo",
+        "description": "Requerimento pede que membros da cúpula da TV Globo sejam convocados para prestar esclarecimentos sobre citação de Bolsonaro no caso Marielle. Leia!",
+        "url": "https://www.gazetadopovo.com.br/republica/breves/cpi-das-fake-news-tv-globo-witzel-bolsonaro/",
+        "urlToImage": "https://media.gazetadopovo.com.br/2019/08/30190032/6b54ada0-c9a1-11e9-baa9-774c719347f5-wp-660x372.jpg",
+        "publishedAt": "2019-10-31T13:17:22Z",
+        "content": "A CPI das fake news quer convidar os membros da cúpula da TV Globo e o governador do Rio de Janeiro, Wilson Witzel, para prestar esclarecimentos, diz o Congresso em Foco. O convite é feito com base na tentativa de ligar o nome do presidente Jair Bolsonaro ao … [+442 chars]"
+      }
+    ]
+  },
+
+  "top-headlines-health": {
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Maisminas.org"
+        },
+        "author": "Karine Bibiano",
+        "title": "Esquizofrenia: precisamos falar sobre o distúrbio da mente dividida - Mais Minas",
+        "description": "Na manhã de quarta-feira, 30 de outubro de 2019, um homem assassinou uma menina de apenas cinco anos, a facadas, na porta de uma escola em Betim, Região Metropolitana de Belo Horizonte. A suspeita é que Moabe Edon Pinto Nogueira Souto, de 25 anos, teria tido …",
+        "url": "https://maisminas.org/esquizofrenia-disturbio-da-mente-dividida/",
+        "urlToImage": "https://maisminas.org/wp-content/uploads/2019/10/esquizofrenia.jpg",
+        "publishedAt": "2019-10-31T19:00:00Z",
+        "content": "Na manhã de quarta-feira, 30 de outubro de 2019, um homem assassinou uma menina de apenas cinco anos, a facadas, na porta de uma escola em Betim, Região Metropolitana de Belo Horizonte. A suspeita é que Moabe Edon Pinto Nogueira Souto, de 25 anos, teria tido … [+8608 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Portaldacidade.com"
+        },
+        "author": "Portal da Cidade",
+        "title": "Saúde População de 18 a 50 anos pode participar de estudo e tratamento de obesidade 31 - ® Portal da Cidade | Paranavaí",
+        "description": "Interessados devem estar em situação de sobrepeso ou obesidade, para participar das reuniões de orientação geral e avaliação.",
+        "url": "https://paranavai.portaldacidade.com/noticias/cidade/populacao-de-18-a-50-anos-pode-participar-de-estudo-e-tratamento-de-obesidade-0737",
+        "urlToImage": "https://static.portaldacidade.com/unsafe/560x315/https://s3.amazonaws.com/paranavai.portaldacidade.com/img/news/2019-10/populacao-de-18-a-50-anos-pode-participar-de-estudo-e-tratamento-de-obesidade-5dbb22ed06b42.jpg",
+        "publishedAt": "2019-10-31T18:14:55Z",
+        "content": "A Secretaria Municipal de Saúde, em parceria com a Unespar, vai desenvolver um estudo sobre obesidade em Paranavaí. Para isso, o município está convidando todos os adultos interessados, com idades entre 18 e 50 anos, que estejam em situação de sobrepeso ou ob… [+665 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metrojornal.com.br"
+        },
+        "author": "Angela Correa",
+        "title": "Programas fazem congelamento de óvulos gratuito para mulheres com câncer - Metro Jornal",
+        "description": "Estadão Conteúdo - 2019/10/31",
+        "url": "https://www.metrojornal.com.br/estilo-vida/2019/10/31/programas-fazem-congelamento-de-ovulos-gratuito-para-mulheres-com-cancer.html",
+        "urlToImage": "https://media.metrolatam.com/2019/10/31/gettyimages73453-7a47d9e9499126d3d51fb0b97f3eb36d-1200x800.jpg",
+        "publishedAt": "2019-10-31T17:32:37Z",
+        "content": "O congelamento de óvulos, espermatozoides, embriões ou tecido ovariano dá a homens e mulheres com câncer a possibilidade de serem pais e mães. A preservação dos gametas é indicada porque o tratamento oncológico compromete a fertilidade, mas o alto custo do pr… [+5103 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Verdesmares.com.br"
+        },
+        "author": "Por Agência Senado",
+        "title": "Lei agora obriga SUS a realizar exames de câncer em até 30 dias; entenda - Diário do Nordeste",
+        "description": "description",
+        "url": "https://diariodonordeste.verdesmares.com.br/editorias/pais/online/lei-agora-obriga-sus-a-realizar-exames-de-cancer-em-ate-30-dias-entenda-1.2168769",
+        "urlToImage": "https://diariodonordeste.verdesmares.com.br/polopoly_fs/1.2168774.1572539398!/image/image.jpg_gen/derivatives/originalImage/image.jpg",
+        "publishedAt": "2019-10-31T16:31:00Z",
+        "content": "Pacientes do Sistema Único de Saúde (SUS) com suspeita de câncer terão direito à realização de exames no prazo máximo de 30 dias. É o que assegura a Lei 13.896/19, sancionada pelo presidente em exercício, Hamilton Mourão, e publicada nesta quinta-feira (31) n… [+1417 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Os alimentos que podem ajudar o cérebro a funcionar melhor - G1",
+        "description": "\"A alimentação é um dos poucos fatores de risco para doenças neurológicas passível de ser modificável e controlável\", afirmou o médico Gurutz Linazasoro, porta-voz da Sociedade Espanhola de Neurologia.",
+        "url": "https://g1.globo.com/ciencia-e-saude/viva-voce/noticia/2019/10/31/os-alimentos-que-podem-ajudar-o-cerebro-a-funcionar-melhor.ghtml",
+        "urlToImage": "https://s2.glbimg.com/IMUa4luWckXcWqIjOpfYrxIURTM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/E/l/shBmAXRpGneCO1SIRxeg/dan-gold-4-jhdo54byg-unsplash.jpg",
+        "publishedAt": "2019-10-31T16:20:00Z",
+        "content": "Uma alimentação de qualidade é peça-chave para nossa saúde em geral, e para o nosso cérebro, em particular. \"A alimentação é um dos poucos fatores de risco para doenças neurológicas passível de ser modificável e controlável\", afirmou à BBC News Mundo (serviço… [+2968 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Verdesmares.com.br"
+        },
+        "author": "Por Redação",
+        "title": "Emergência do Frotinha de Messejana será fechada para reforma a partir desta sexta-feira (1º) - Diário do Nordeste",
+        "description": "description",
+        "url": "https://diariodonordeste.verdesmares.com.br/editorias/metro/online/emergencia-do-frotinha-de-messejana-sera-fechada-para-reforma-a-partir-desta-sexta-feira-1-1.2168647",
+        "urlToImage": "https://diariodonordeste.verdesmares.com.br/polopoly_fs/1.2168653.1572525072!/image/image.jpg_gen/derivatives/originalImage/image.jpg",
+        "publishedAt": "2019-10-31T12:32:00Z",
+        "content": "Pacientes que têm o Hospital Distrital Edmilson Barros, o Frotinha de Messejana, como referência para buscar atendimento devem procurar outras unidades públicas a partir desta sexta-feira (1º). A área de urgência e emergência em clínica médica do hospital ser… [+1553 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "A história da mulher que pode morrer se virar a cabeça para o lado errado - G1",
+        "description": "Ela conta que sua cabeça 'se desloca parcialmente quando eu viro para a esquerda. Se deslocar completamente, isso seria uma decapitação interna e eu morreria instantaneamente'.",
+        "url": "https://g1.globo.com/ciencia-e-saude/noticia/2019/10/31/a-historia-da-mulher-que-pode-morrer-se-virar-a-cabeca-para-o-lado-errado.ghtml",
+        "urlToImage": "https://s2.glbimg.com/nHqV7qNPQ5XYhzZg4wxMgo1p27Y=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/U/9/aQO1g8RG6CaeEnD0C6Nw/mulher.jpg",
+        "publishedAt": "2019-10-31T12:14:00Z",
+        "content": "Rachel Pighills é uma inglesa de 33 anos que não pode virar a cabeça para a esquerda sem colocar sua vida em risco. Quando conversou com a BBC há alguns dias, Pighills planejava viajar para a Espanha em busca de um tratamento que lhe permitisse retornar à vid… [+4873 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bonde.com.br"
+        },
+        "author": "Bonde",
+        "title": "Entenda a diferença entre menopausa e climatério - Portal Bonde",
+        "description": "",
+        "url": "https://www.bonde.com.br/saude/corpo-e-mente/entenda-a-diferenca-entre-menopausa-e-climaterio-506910.html",
+        "urlToImage": "https://www.bonde.com.br/img/bondenews/2019/10/img_6948.jpg",
+        "publishedAt": "2019-10-31T10:25:00Z",
+        "content": "As vidas das mulheres são marcadas por alterações hormonais que caracterizam ciclos e o climatério é a etapa que reflete o fim de sua fase reprodutiva.\r\nSegundo Fernanda Freire, médica ginecologista da Rede de Hospitais São Camilo de São Paulo, é comum as pes… [+2963 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metrojornal.com.br"
+        },
+        "author": "Rodrigo Almeida",
+        "title": "Vitamina de abacate e abacaxi é doce e ajuda a emagrecer - Metro Jornal",
+        "description": "Vitamina de abacate e abacaxi é doce e ajuda a emagrecer. Confira receita saudável que pode acabar com a vontade de comer doces.",
+        "url": "https://www.metrojornal.com.br/estilo-vida/2019/10/31/618005.html",
+        "urlToImage": "https://media.metrolatam.com/2019/10/30/03pineappleweigh-25e9710b94761d859ff6d4008aff0fab-1200x800.jpg",
+        "publishedAt": "2019-10-31T09:30:14Z",
+        "content": "Esta vitamina vai satisfazer qualquer vontade de comer doces de maneira natural, diz Neda Varbanova, nutricionista e criadora de receitas em Nova York.\r\nSegundo ela, o abacate fornece gorduras essenciais e vitaminas A, E, K, B, C e fibras, que ajudam a manter… [+526 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Noticiasaominuto.com"
+        },
+        "author": "Liliana Lopes Monteiro",
+        "title": "Cinco sinais precoces de cancro que provavelmente desconhece - Notícias ao Minuto",
+        "description": "Identificar o quanto antes estes sintomas pode fazer toda a diferença.",
+        "url": "https://www.noticiasaominuto.com/lifestyle/1349239/cinco-sinais-precoces-de-cancro-que-provavelmente-desconhece",
+        "urlToImage": "https://media-manager.noticiasaominuto.com/1280/1572449781/naom_5db9993a9084f.jpg?crop_params=eyJsYW5kc2NhcGUiOnsiY3JvcFdpZHRoIjoyNTYwLCJjcm9wSGVpZ2h0IjoxNDQwLCJjcm9wWCI6MCwiY3JvcFkiOjk2fSwicG9ydHJhaXQiOnsiY3JvcFdpZHRoIjo5NTUsImNyb3BIZWlnaHQiOjE2OTgsImNyb3BYIjoxMDg4LCJjcm9wWSI6OH19",
+        "publishedAt": "2019-10-31T08:00:00Z",
+        "content": "Quando se fala no tratamento de cancro, conseguir um diagnóstico cedo e preciso pode significar a diferença entre a vida e a morte. \r\nUm estudo britânico revelou que mais de metade da população ignora os sinais de alarme do cancro por receio de fazer 'perder … [+1161 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": null,
+        "title": "Estudos mostram que exercícios de alta intensidade podem trazer benefícios - Entrelivros",
+        "description": "Marcio Atalla é professor de educação física, com pós-graduação em nutrição pela USP (Universidade de São Paulo). Depois de muitos anos como preparador físico de atletas de alto rendimento, passou a desenvolver uma série de iniciativas na mídia para incentiva…",
+        "url": "https://marcioatalla.blogosfera.uol.com.br/2019/10/31/estudos-mostram-que-exercicios-de-alta-intensidade-podem-trazer-beneficios/",
+        "urlToImage": "https://conteudo.imguol.com.br/blogs/215/files/2019/10/iStock-910568252-615x300.jpg",
+        "publishedAt": "2019-10-31T07:00:00Z",
+        "content": "iStock\r\nMelhor arrumar outra desculpa além da tradicional falta de tempo para não fazer exercícios físicos. Vários estudos já comprovam os ganhos importantes mesmo com poucos minutos de atividade física por dia…. mas com uma intensidade um pouco maior.\r\nVamos… [+4048 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": null,
+        "title": "Doença de Chagas vem com tudo: açaí ou não lavar frutas causam o problema? - Entrelivros",
+        "description": "Lúcia Helena de Oliveira é uma jornalista apaixonada por saúde, assunto sobre o qual escreve há mais de três décadas, com cursos de especialização no Brasil e no exterior. Dirigiu por 17 anos a revista SAÚDE, na Editora Abril, editou 38 livros de autores médi…",
+        "url": "https://luciahelena.blogosfera.uol.com.br/2019/10/31/doenca-de-chagas-vem-com-tudo-acai-ou-nao-lavar-frutas-causam-o-problema/",
+        "urlToImage": "https://conteudo.imguol.com.br/blogs/218/files/2019/10/iStock-184323202-615x300.jpg",
+        "publishedAt": "2019-10-31T07:00:00Z",
+        "content": "Crédito: iStock\r\nNão posso começar este texto dizendo que a doença de Chagas voltou. Simplesmente pelo seguinte: o mal descrito pelo médico mineiro Carlos Chagas entre 1908 e 1909 nunca foi embora. Jamais ficou restrito aos livros de escola, onde você ainda m… [+7451 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "R7.com"
+        },
+        "author": "R7.com",
+        "title": "Quando devo me preocupar com o refluxo? Entenda o problema - R7",
+        "description": "O gastrocirurgião Eduardo Grecco, da Association for\r\nBariatric Endoscopy (ABE), afirma que, quando não tratado, refluxo pode desencadear até câncer",
+        "url": "https://noticias.r7.com/saude/fotos/quando-devo-me-preocupar-com-o-refluxo-entenda-o-problema-31102019",
+        "urlToImage": "https://img.r7.com/images/mulher-tossindo-30102019132138407?dimensions=600x315&crop_position=c",
+        "publishedAt": "2019-10-31T05:00:19Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Midiamax.com.br"
+        },
+        "author": "Diego Alves",
+        "title": "Caminhonete de enfermeiro é incendiada no posto de saúde em Campo Grande - Jornal Midiamax",
+        "description": "Uma caminhonete Mitsubishi de um enfermeiro foi incendiada no estacionamento no CRS (Centro Regional De Saúde) do Bairro Aero Rancho em Campo Grande, na noite desta quarta-feira (30). Quem trabalha no lugar diz que o incêndio foi criminoso.O Corpo de",
+        "url": "https://www.midiamax.com.br/policia/2019/caminhonete-de-enfermeiro-e-incendiada-em-unidade-de-saude-na-capital",
+        "urlToImage": "https://cdn.midiamax.com.br/elasticbeanstalk-us-west-2-809048387867/uploads/2019/10/cm-680x334.jpg",
+        "publishedAt": "2019-10-31T03:20:00Z",
+        "content": "Uma caminhonete Mitsubishi de um enfermeiro foi incendiada no estacionamento no CRS (Centro Regional De Saúde) do Bairro Aero Rancho em Campo Grande, na noite desta quarta-feira (30). Quem trabalha no lugar diz que o incêndio foi criminoso.\r\nO Corpo de Bombei… [+592 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Folhavitoria.com.br"
+        },
+        "author": "Folha Vitória",
+        "title": "Hipnoterapia auxilia no tratamento da enxaqueca - Jornal Folha Vitória",
+        "description": "Por meio de técnicas de hipnose é possível encontrar o fator que desencadeia a dor de cabeça, ressignificar a emoção relacionada e, assim, melhorar a vida do paciente",
+        "url": "https://www.folhavitoria.com.br/saude/noticia/10/2019/hipnoterapia-auxilia-no-tratamento-da-enxaqueca",
+        "urlToImage": "https://assets.folhavitoria.com.br/images/5b8562b0-dd70-0137-1b69-0a58a9feac2a--minified.jpg",
+        "publishedAt": "2019-10-30T23:44:45Z",
+        "content": "Foto: Divulgação / Pexel\r\nA enxaqueca, também conhecida como migrânea, é um tipo de dor de cabeça que afeta pessoas no mundo inteiro. No Brasil, segundo dados de estudo epidemiológico realizado pela Sociedade Brasileira de Cefaleia (SBCe), cerca de 15% da pop… [+4086 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pontalemfoco.com.br"
+        },
+        "author": null,
+        "title": "Após morte de criança, prefeitura de Ituiutaba divulga nota de esclarecimento - Pontal Emfoco",
+        "description": "Uma criança de 2 anos acabou morrendo na madrugada desta quarta-feira após receber dois atendimentos no Pronto Socorro Municipal de Ituiutaba e ser transferida para o hospital São José. Veja a Nota: NOTA À IMPRENSA Em face dos acontecimentos que levaram ao fa…",
+        "url": "http://pontalemfoco.com.br/saude/apos-morte-de-crianca-prefeitura-de-ituiutaba-divulga-nota-de-esclarecimento/",
+        "urlToImage": "http://pontalemfoco.com.br/wp-content/uploads/2019/10/08-08-Saude-Ituiutaba-892x600.jpg",
+        "publishedAt": "2019-10-30T22:51:05Z",
+        "content": "Uma criança de 2 anos acabou morrendo na madrugada desta quarta-feira após receber dois atendimentos no Pronto Socorro Municipal de Ituiutaba e ser transferida para o hospital São José. NOTA À IMPRENSA Em face dos acontecimentos que levaram ao falecimento de … [+1653 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Emtempo.com.br"
+        },
+        "author": "Em tempo",
+        "title": "Unidades de saúde em Manaus oferecem testagem rápida para sífilis - EM TEMPO",
+        "description": "Manaus - Como parte da Campanha Nacional de Combate à Sífilis, a Prefeitura de Manaus está intensificando a oferta do teste rápido para o diagnóstico da doença em 155 unidades de saúde da Secretaria Municipal de Saúde (Semsa), além da Unidade Móvel de Testage…",
+        "url": "https://emtempo.com.br/mova-se-saude/177101/unidades-de-saude-em-manaus-oferecem-testagem-rapida-para-sifilis",
+        "urlToImage": "https://emtempo.com.br/themes/AET/img/logo.png",
+        "publishedAt": "2019-10-30T22:36:00Z",
+        "content": "Entre janeiro e setembro de 2019, a Semsa registrou em Manaus 2.366 casos notificados de sífilis adquirida, 1.168 de sífilis em gestantes e 574 casos de sífilis congênita. | Foto: Divulgação\r\nManaus - Como parte da Campanha Nacional de Combate à Sífilis, a Pr… [+3392 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Folhavitoria.com.br"
+        },
+        "author": "Folha Vitória",
+        "title": "Emagrecer sem dieta: conheça os benefícios do jejum intermitente - Jornal Folha Vitória",
+        "description": "O jejum intermitente é um método de emagrecimento que visa intercalar períodos de jejum com períodos de alimentação",
+        "url": "https://www.folhavitoria.com.br/saude/noticia/10/2019/emagrecer-sem-dieta-conheca-os-beneficios-do-jejum-intermitente",
+        "urlToImage": "https://assets.folhavitoria.com.br/images/f3bc6880-0c52-0137-3f15-6231c35b6685--minified.jpeg",
+        "publishedAt": "2019-10-30T22:06:23Z",
+        "content": "Foto: Divulgação\r\nA maioria das pessoas passa a vida toda fazendo dietas, mudando hábitos alimentares, mas dificilmente atinge o corpo ideal. Existe muita confusão em relação as dietas, principalmente, com a falsa ideia de que comer de três em três horas emag… [+3280 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Ibahia.com"
+        },
+        "author": "Redação iBahia",
+        "title": "Leve e nutritivo: oito razões para dar uma chance ao aspargo - iBahia",
+        "description": "O que muita gente não sabe é que o vegetal é bastante rico em nutrientes essenciais para o bom funcionamento do nosso organismo",
+        "url": "https://www.ibahia.com/saude/detalhe/noticia/leve-e-nutritivo-oito-razoes-para-dar-uma-chance-ao-aspargo/",
+        "urlToImage": "https://www.ibahia.com/fileadmin/user_upload/ibahia/2019/outubro/30/aspargo.jpg",
+        "publishedAt": "2019-10-30T21:56:00Z",
+        "content": ""
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Gazetadopovo.com.br"
+        },
+        "author": "Gazeta do PovoGazeta do Povo",
+        "title": "Governo divulga lista de crianças não-vacinadas contra sarampo - Gazeta do Povo",
+        "description": "Ideia do Ministério da Saúde é fazer uma busca ativa para atualizar a vacinação dessa população",
+        "url": "https://www.gazetadopovo.com.br/viver-bem/saude-e-bem-estar/governo-divulga-lista-de-criancas-nao-vacinadas-contra-sarampo/",
+        "urlToImage": "https://www.gazetadopovo.com.br/viver-bem/wp-content/uploads/2019/09/vitamina-a-bebe-sarampo.jpg",
+        "publishedAt": "2019-10-30T20:32:15Z",
+        "content": "Após mapear a situação vacinal de sarampo de 6,5 milhões de crianças de seis meses a menores de cinco anos, o Ministério da Saúde divulgou uma lista das crianças nã0-vacinadas. Saiba tudo sobre a doença!\r\nO levantamento foi anunciado nesta terça-feira, em Bra… [+2708 chars]"
+      }
+    ]
+  },
+
+  "top-headlines-science": {
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Terra.com.br"
+        },
+        "author": null,
+        "title": "Emissões de carbono de florestas tropicais foram subestimadas, diz estudo - Terra",
+        "description": "Por Michael Taylor<div class=\"relatedcontent\" data-cms=\"%7B%22title%22%3A%20%222019-10-31t140630z1lynxmpef9u189rtroptp4ambiente-carbono-florestas.JPG%22",
+        "url": "https://www.terra.com.br/noticias/mundo/emissoes-de-carbono-de-florestas-tropicais-foram-subestimadas-diz-estudo,6953f0c8515f23123d5867f704c1314f1jvme0u1.html",
+        "urlToImage": "http://p2.trrsf.com/image/fget/cf/800/450/middle/images.terra.com/2019/10/31/2019-10-31T140630Z_1_LYNXMPEF9U189_RTROPTP_4_AMBIENTE-CARBONO-FLORESTAS.JPG",
+        "publishedAt": "2019-10-31T14:10:21Z",
+        "content": "Por Michael Taylor\r\n KUALA LUMPUR (Thomson Reuters Foundation) - A quantidade de carbono emitida pelas florestas tropicais que o mundo perdeu não foi devidamente informada, já que as estimativas não levaram em conta os efeitos de longo prazo da destruição de … [+2110 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Olhardigital.com.br"
+        },
+        "author": "Clara Guimarães",
+        "title": "Site mostra o real tamanho do universo - Olhar Digital",
+        "description": "E como os humanos são extremamente pequenos",
+        "url": "https://olhardigital.com.br/noticia/novo-site-ilustra-o-tamanho-real-do-universo/92330",
+        "urlToImage": "https://img.olhardigital.com.br/uploads/acervo_imagens/2019/10/20191031084049.jpg",
+        "publishedAt": "2019-10-31T12:22:00Z",
+        "content": "Um novo site chamado \"The Size of Space\" (tradução: O Tamanho do Espaço) ilustra quão incompreensivelmente vasto é o universo - e como os seres humanos são pequenos. A ferramenta funciona de forma bem simples: basta clicar na seta direita do seu teclado ou de… [+722 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Sputniknews.com"
+        },
+        "author": null,
+        "title": "Observações finais revelam presença inédita de água no 2º cometa interestelar - Sputnik Brasil",
+        "description": "As últimas revisões de imagens espectrais do recém-descoberto cometa interestelar 2I/Borisov tornaram possível a primeira detecção de água no corpo celeste.",
+        "url": "https://br.sputniknews.com/ciencia_tecnologia/2019103114713284-observacoes-finais-revelam-presenca-inedita-de-agua-no-2-cometa-interestelar/",
+        "urlToImage": "https://br.sputniknews.com/sharing_snippet/14713284.png?1572516811",
+        "publishedAt": "2019-10-31T10:13:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "Matheus Pichonelli",
+        "title": "Ouvir o coração não é só sofrência! Ciência diz que pode evitar acidentes - UOL",
+        "description": "Ouça o seu coração para não se machucar. Parece refrão de sertanejo sofrência, mas é bom ouvir a professora de neurociência clínica e afetiva da Universidade de Sussex (Reino Unido) Sarah Garfinkel quando ela diz isso.Eleita pela revista \"Nature\" como uma",
+        "url": "https://www.uol.com.br/tilt/noticias/redacao/2019/10/31/ouvir-o-coracao-nao-e-so-sofrencia-ciencia-diz-que-pode-evitar-acidentes.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/entretenimento/a6/2019/10/17/coracao-quebrado-com-maos-segurando-1571342243444_v2_615x300.jpg",
+        "publishedAt": "2019-10-31T07:00:00Z",
+        "content": "Ouça o seu coração para não se machucar. Parece refrão de sertanejo sofrência, mas é bom ouvir a professora de neurociência clínica e afetiva da Universidade de Sussex (Reino Unido) Sarah Garfinkel quando ela diz isso.\r\nEleita pela revista \"Nature\" como uma \"… [+4450 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Aeiou.pt"
+        },
+        "author": "ZAP",
+        "title": "Estranheza quântica pode fazer com que um wormhole dure para sempre - ZAP",
+        "description": "Agora, cálculos sugerem que os wormholes podem mesmo permanecer durante algum tempo - talvez tanto quanto o próprio Universo....",
+        "url": "https://zap.aeiou.pt/estruturas-quanticas-wormhole-sempre-287712",
+        "urlToImage": "https://zap.aeiou.pt/wp-content/uploads/2017/11/95b8a1272ca74e145e669bfb694494b6.jpg",
+        "publishedAt": "2019-10-31T07:00:00Z",
+        "content": "Os cientistas nunca tiveram a certeza de que os wormholes conseguiam existir tempo suficiente para que qualquer objeto viajasse através destes portais do espaço-tempo. Agora, cálculos sugerem que os wormholes podem mesmo permanecer durante algum tempo – talve… [+2844 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Nexojornal.com.br"
+        },
+        "author": null,
+        "title": "Como evitar distrações nos estudos, segundo a ciência - Nexo Jornal",
+        "description": "Bloquear distrações é mais difícil do que imaginamos",
+        "url": "https://www.nexojornal.com.br/externo/2019/10/30/Como-evitar-distra%C3%A7%C3%B5es-nos-estudos-segundo-a-ci%C3%AAncia",
+        "urlToImage": "https://www.nexojornal.com.br/incoming/imagens/Como-evitar-distra%C3%A7%C3%B5es-nos-estudos-segundo-a-ci%C3%AAncia/ALTERNATES/LANDSCAPE_720/Como%20evitar%20distra%C3%A7%C3%B5es%20nos%20estudos,%20segundo%20a%20ci%C3%AAncia",
+        "publishedAt": "2019-10-30T23:15:40Z",
+        "content": "O Nexo tem como principal motivação produzir um jornalismo que contribua para um debate público qualificado e plural, que seja capaz de fortalecer a democracia brasileira.\r\nE nestas eleições, nada é mais importante do que ter informação de qualidade.\r\nDesde o… [+218 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Obuxixogospel.com.br"
+        },
+        "author": "obuxixogospel",
+        "title": "Será o fim do mundo! Asteroide poderá colidir com a terra em 2019? - O Buxixo gospel",
+        "description": "Será o fim do mundo! Asteroide poderá colidir com a terra em 2019?. A cientista Danica Remy, declarou em meio a uma entrevista à rede de notícias internacional, NBC News, o que a maioria das pessoas não gostaria de escutar: um choque entre um asteroide e a te…",
+        "url": "https://www.obuxixogospel.com.br/2019/10/sera-o-fim-do-mundo-asteroide-podera-colidir-com-a-terra-em-2019/",
+        "urlToImage": "https://www.obuxixogospel.com.br/wp-content/uploads/2019/08/asteroide.jpg",
+        "publishedAt": "2019-10-30T22:45:49Z",
+        "content": "Será o fim do mundo! Asteroide poderá colidir com a terra em 2019?. A cientista Danica Remy, declarou em meio a uma entrevista à rede de notícias internacional, NBC News, o que a maioria das pessoas não gostaria de escutar: um choque entre um asteroide e a te… [+1606 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Olhardigital.com.br"
+        },
+        "author": "Vinicius Szafran",
+        "title": "Brasileiro desenvolve robô marionete que copia os movimentos humanos - Olhar Digital",
+        "description": "Quando conectado ao corpo humano, o robô é capaz de imitar os movimentos e até de aprender a andar",
+        "url": "https://olhardigital.com.br/noticia/brasileiro-desenvolve-robo-marionete-que-copia-os-movimentos-humanos/92307",
+        "urlToImage": "https://img.olhardigital.com.br/uploads/acervo_imagens/2019/10/20191030053611.jpg",
+        "publishedAt": "2019-10-30T22:10:00Z",
+        "content": "O brasileiro João Ramos, pesquisador e professor assistente do Departamento de Ciência Mecânica e Engenharia na Universidade de Illinois, nos Estados Unidos, desenvolveu um robô capaz de imitar e aprender movimentos humanos. A ideia do projeto é desenvolver u… [+2001 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Nsctotal.com.br"
+        },
+        "author": "Clarissa Battistella",
+        "title": "Concurso da PM: resultado de recurso do psicotécnico está previsto para próxima semana - NSC Total",
+        "description": "O resultado dos recursos apresentados pelos candidatos que reprovaram na avaliação psicotécnica do concurso para soldado da Polícia Militar de Santa C",
+        "url": "https://www.nsctotal.com.br/noticias/concurso-da-pm-resultado-de-recurso-do-psicotecnico-esta-previsto-para-proxima-semana",
+        "urlToImage": "https://files.nsctotal.com.br/s3fs-public/graphql-upload-files/pol%C3%ADcia%20militar_3.jpg?W8GG6dLD6pdYzxdJLfR.Gwbx0A8BYGft",
+        "publishedAt": "2019-10-30T22:08:00Z",
+        "content": "O resultado dos recursos apresentados pelos candidatos que reprovaram na avaliação psicotécnica do concurso para soldado da Polícia Militar de Santa Catarina deve ser divulgado na próxima semana. Essa é a expectativa do coordenador do processo seletivo, coron… [+2726 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Climatempo.com.br"
+        },
+        "author": null,
+        "title": "INCENDIO NA CHAPADA DIAMANTINA - Climatempo Meteorologia - Notícias sobre o clima e o tempo do Brasil",
+        "description": "Leia a notícia completa em nosso site!",
+        "url": "https://www.climatempo.com.br/participe/35876/incendio-na-chapada-diamantina",
+        "urlToImage": null,
+        "publishedAt": "2019-10-30T21:54:23Z",
+        "content": "IMAGENS DE CORTAR O CORACAO VENDO AS FUMACAS SE ESPALHARE SOBRE A PARTE SUDOESTE DA CHAPADA.. REGIAO DO INCENDIO FICA ACIMA DOS 1500 MTS E ALTITUDES E NAO 150. COMO FALEI NA OUTRA FTO.."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cajamarnoticias.com"
+        },
+        "author": null,
+        "title": "Meteorologia erra e previsão de calor extremo muda para \"dia nublado\". - Cajamar Notícias",
+        "description": "Noticias recentes de cajamar e região, confira aqui o maior e melhor portal de noticias de Jordanésia, Polvilho, Santana de Parnaíba, Jundiaí, Pirapora do Bom Jesus, Policial, Política, Diário Cajamar, cajamarense atualizado diariamente",
+        "url": "https://cajamarnoticias.com/meteorologia-erra-e-previsao-de-calor-extremo-muda-para-dia-nublado/",
+        "urlToImage": "https://cajamarnoticias.com/wp-content/uploads/2019/10/IMG_0270.jpg",
+        "publishedAt": "2019-10-30T21:10:00Z",
+        "content": "Após anunciar que a quinta-feira (31) poderia registrar o dia mais quente do ano, com temperaturas passando dos 35 graus, uma “virada repentina do vento”, mudou o tempo logo pela manhã desta quinta-feira, contrariando as previsões que indicavam sol forte e po… [+422 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Olhardigital.com.br"
+        },
+        "author": "Vinicius Szafran",
+        "title": "Matriz robótica de cinco mil 'olhos' vai mapear distância da Terra à Matéria Escura - Olhar Digital",
+        "description": "O instrumento tem o potencial de",
+        "url": "https://olhardigital.com.br/noticia/matriz-robotica-de-cinco-mil-olhos-vai-mapear-distancia-da-terra-a-materia-escura/92304",
+        "urlToImage": "https://img.olhardigital.com.br/uploads/acervo_imagens/2019/10/20191030051122.jpg",
+        "publishedAt": "2019-10-30T20:55:00Z",
+        "content": "Os astrônomos ainda não conseguiram desvendar os mistérios que envolvem a Matéria Escura, uma substância que compõe quase 70% do Universo e parece estar intrinsecamente ligada à expansão do cosmos. Porém, um novo experimento pode lançar alguma luz sobre essa … [+2022 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metrojornal.com.br"
+        },
+        "author": "Wellington Botelho",
+        "title": "Telescópio Hubble da NASA capta ‘imagem macabra’ no espaço - Metro Jornal",
+        "description": "Wellington Botelho - 2019/10/30",
+        "url": "https://www.metrojornal.com.br/estilo-vida/2019/10/30/hubble-nasa-rosto-macabro.html",
+        "urlToImage": "https://media.metrolatam.com/2019/10/30/stscihp1951af163-eeb367314effe414a9438b80f30fdfa5-1200x800.jpg",
+        "publishedAt": "2019-10-30T20:30:02Z",
+        "content": "O Telescópio Hubble da Agência Espacial Americana (NASA) captou recentemente a imagem de um 'rosto assustador no espaço. O arquivo foi compartilhado pela instituição no Twitter.\r\nCom revelado, um misterioso par de olhos brilha ameaçadoramente em nossa direção… [+2656 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Opantaneiro.com.br"
+        },
+        "author": "http://www.dothnews.com.br",
+        "title": "Jovens cientistas do IFMS ganham credencial para participar de Feira na Dinamarca - O Pantaneiro",
+        "description": "Desenvolvedoras de plataforma online para alunos da Pestalozzi pedem ajuda para adquirir as passagens de avião",
+        "url": "https://www.opantaneiro.com.br/aquidauana/jovens-cientistas-do-ifms-ganham-credencial-para-participar-de-feira/152782/",
+        "urlToImage": "http://cdn.opantaneiro.com.br/upload/dn_noticia/2019/10/3a6baeb6-6a2b-4490-9c79-189ebbd592c7.jpg",
+        "publishedAt": "2019-10-30T20:21:00Z",
+        "content": "Aquidauana tem se firmado como celeiro de bons pesquisadores que são destaque no Brasil e no mundo. Após o sucesso do aquidauanense Luiz Fernando da Silva Borges, jovem cientista que participou do programa Conversa com Bial, em junho de 2018, agora é a vez da… [+3585 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Publico.pt"
+        },
+        "author": "Inês Chaíça",
+        "title": "Psicologia. O “chefe ideal” dos portugueses é mais “compreensivo” do que competente - PÚBLICO",
+        "description": "Sentir que se é olhado “como uma pessoa integral, com circunstâncias de vida que são tidas em consideração e há relativamente a elas uma grande empatia” é uma das características mais importantes para os portugueses.",
+        "url": "https://www.publico.pt/2019/10/30/ciencia/noticia/chefe-ideal-portugueses-compreensivo-competente-1891928",
+        "urlToImage": "https://imagens.publico.pt/imagens.aspx/1408292?tp=UH&db=IMAGENS&type=JPG&share=1&o=BarraFacebook_Publico.png",
+        "publishedAt": "2019-10-30T19:35:00Z",
+        "content": "O que se pensa, em Portugal, quando se imagina um chefe ideal? Numa pessoa “compreensiva”, “respeitadora”, que seja “líder”, “justa” e “amiga” — pelo menos são estes os cinco primeiros adjectivos que vêm à cabeça. Esta é a conclusão de um estudo coordenado pe… [+6190 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Mundoconectado.com.br"
+        },
+        "author": "Saori Almeida",
+        "title": "Rover Curiosity faz experimento raro em Marte pela segunda vez - e pausa para tirar uma selfie - Mundo Conectado",
+        "description": "Os resultados do processo de \"química úmida\" não serão conhecidos até o próximo ano",
+        "url": "https://mundoconectado.com.br/noticias/v/10941/rover-curiosity-faz-experimento-raro-em-marte-pela-segunda-vez-e-pausa-para-tirar-uma-selfie",
+        "urlToImage": "https://mundoconectado.com.br/uploads/chamadas/mars-curiosity-rover-selfie_(1).jpg",
+        "publishedAt": "2019-10-30T18:45:00Z",
+        "content": "Ficamos sabendo recentemente que o rover Curiosity da Nasa realizou um experimento raro no planeta vermelho no mês passado. E ele não deixou de registrar seu feito. \r\nNotíciaJessica Meir e Christina Koch saíram da Estação Espacial Internacional hoje, dia 18 d… [+1659 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Canaltech.com.br"
+        },
+        "author": null,
+        "title": "NASA quer trazer mais amostras lunares em 2024, mas falta capacidade na nave - Canaltech",
+        "description": "Preparativos da missão que vai levar humanos novamente à superfície lunar em 2024 enfrenta desafios com relação à quantidade de material a ser trazido do satélite natural para a Terra. A nave que será enviada não tem espaço pensado para muita carga",
+        "url": "https://canaltech.com.br/espaco/nasa-quer-trazer-mais-amostras-lunares-em-2024-mas-falta-capacidade-na-nave-153911/",
+        "urlToImage": "https://timeline.canaltech.com.br/338223.700/nasa-quer-trazer-mais-amostras-lunares-em-2024-mas-falta-capacidade-na-nave-153911.jpg",
+        "publishedAt": "2019-10-30T18:30:00Z",
+        "content": "A NASA começou, de fato, os preparativos para as missões que levarão novamente astronautas à Lua. Batizado de Artemis, o programa pode ter até 40 voos entre a Terra e o satélite natural, apesar de que quase metade deles não terá tripulantes. Astronautas homen… [+3115 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Sapo.pt"
+        },
+        "author": "Casa dos Bits",
+        "title": "Investigação contesta decisão da OMS e revela que os videojogos podem não ser a causa do vício do gaming - SAPO Tek",
+        "description": "Um estudo revela que os videojogos podem não ser a “raíz de todos os males”. Em adolescentes, a dependência pode ser causada por \"frustrações psicológicas subjacentes\".",
+        "url": "https://tek.sapo.pt/noticias/computadores/artigos/investigacao-contesta-decisao-da-oms-e-revela-que-os-videojogos-podem-nao-ser-a-causa-do-vicio-do-gaming",
+        "urlToImage": "https://thumbs.web.sapo.io/?W=1200&H=630&delay_optim=1&tv=1&crop=center&bottom_overlay=https%3A%2F%2Ftek.sapo.pt%2Fassets%2Fimg%2Ftek-sapo%2Ffacebook-overlay.png&epic=Mzc0piUdLs05MrKay9NDqZyzvg4fjufez6NKqAOlACigL32RKagWN5bAc/l6OA2D01enJKFqLJDEiqtvZeclRIVazMy7VgiCU1VJHH2z8qFqPYI=",
+        "publishedAt": "2019-10-30T18:16:00Z",
+        "content": "A Organização Mundial de Saúde reconheceu oficialmente a dependência de videojogos como uma perturbação psicológica, uma mudança que aconteceu com a revisão da Classificação Estatística Internacional de Doenças e Problemas Relacionados com a Saúde. O novo doc… [+1943 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Jornalconexao.com.br"
+        },
+        "author": "https://www.facebook.com/emanuelramon.soares",
+        "title": "Nuvens ‘rolo’ em Ingleses são consideradas raras para a região, segundo meteorologista - Jornal Conexão Comunidade",
+        "description": "Quem estava na praia se assustou por volta de 13h40 desta quarta-feira (30) ao ver o",
+        "url": "https://www.jornalconexao.com.br/",
+        "urlToImage": "https://www.jornalconexao.com.br/wp-content/uploads/2019/10/nuvem-rolo-ingleses-praia.jpg",
+        "publishedAt": "2019-10-30T17:57:00Z",
+        "content": "Quem estava na praia se assustou por volta de 13h40 desta quarta-feira (30) ao ver o que muitos descreveram como um ‘paredão de nuvens’ que se aproximou de Ingleses, a partir do sul, passando também pela Praia do Santinho e Praia Brava. Essas nuvens foram aco… [+1345 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": null,
+        "title": "El Niño, La Niña ou neutralidade? Veja qual fenômeno vai impactar a safra - Canal Rural",
+        "description": "De acordo com a Somar Meteorologia, um sistema de baixa pressão continuará e as temperaturas podem cair",
+        "url": "https://canalrural.uol.com.br/multimidia/portal-de-videos/el-nino-la-nina-ou-neutralidade-veja-qual-fenomeno-vai-impactar-a-safra/",
+        "urlToImage": "https://canalrural.uol.com.br/wp-content/uploads/2018/08/sky-238377_960_720_0.jpg",
+        "publishedAt": "2019-10-30T17:21:09Z",
+        "content": "Os temporais não dão trégua no Sul do país, principalmente no Rio Grande do Sul. Até esta terça-feira, o que estava atuando sobre o estado era área de baixa pressão, e agora, segundo a Somar Meteorologia, esse sistema dará origem a uma frente fria, e com isso… [+297 chars]"
+      }
+    ]
+  },
+
+  "top-headlines-sports": {
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Meutimao.com.br"
+        },
+        "author": "Julia Raya",
+        "title": "Corinthians supera São Paulo na Fazendinha e está na semifinal do Brasileiro Sub-20 - Meu Timão",
+        "description": "O Corinthians recebeu o São Paulo na Fazendinha pelo jogo de volta das quartas de final do Brasileiro Sub-20 e venceu por 2 a 1, garantindo vaga na semifinal.",
+        "url": "https://www.meutimao.com.br/noticias-do-corinthians/332041/corinthians-supera-sao-paulo-na-fazendinha-e-esta-na-semifinal-do-brasileiro-sub-20",
+        "urlToImage": "https://cdn.meutimao.com.br/_upload/noticia-share/facebook/2019/10/31/em-casa-mando-eu-corinthians-supera-sao-paulo-na_15d3af5.jpg",
+        "publishedAt": "2019-10-31T19:32:00Z",
+        "content": "A tarde dessa quinta-feira foi de felicidade para a garotada do Sub-20. O Corinthians recebeu o São Paulo na Fazendinha pelo jogo de volta das quartas de final do Brasileiro da categoria e fez valer a vantagem de decidir em casa: o Timão triunfou por 2 a 1 di… [+6590 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Colunadofla.com"
+        },
+        "author": null,
+        "title": "Arrasador! Arrascaeta pode alcançar marca histórica diante do Goiás - Coluna do Fla",
+        "description": "FOTO: MARCELO CORTES / FLAMENGO  As contratações que chegaram no começo e no meio do ano foram cirúrgicas para o ótimo desempenho do Flamengo na temporada. É difícil escolher apenas um nome, pois todos os atletas estão rendendo de forma positiva nas competiçõ…",
+        "url": "https://colunadofla.com/2019/10/arrasador-arrascaeta-pode-alcancar-marca-historica-diante-do-goias/",
+        "urlToImage": "https://colunadofla.com/wp-content/uploads/2019/10/arrascaeta-5.jpg",
+        "publishedAt": "2019-10-31T18:34:32Z",
+        "content": "FOTO: MARCELO CORTES / FLAMENGO \r\nAs contratações que chegaram no começo e no meio do ano foram cirúrgicas para o ótimo desempenho do Flamengo na temporada. É difícil escolher apenas um nome, pois todos os atletas estão rendendo de forma positiva nas competiç… [+1071 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Metropoles.com"
+        },
+        "author": null,
+        "title": "Vídeo. Valdívia, ex-Palmeiras, entrega empanada nas ruas do Chile - Metrópoles",
+        "description": "Junto com o irmão, o meio-campista do Colo-Colo carregava uma bandeja de comida numa estação de metrô em Santiago durante os protestos",
+        "url": "https://www.metropoles.com/esportes/futebol/video-valdivia-ex-palmeiras-entrega-empanada-nas-ruas-do-chile",
+        "urlToImage": "https://uploads.metropoles.com/wp-content/uploads/2019/10/31145525/Vald%C3%ADvia-com-empadas.jpg",
+        "publishedAt": "2019-10-31T17:56:00Z",
+        "content": "Ex-jogador do Palmeiras, Valdívia se infiltrou nos protestos que ocorrem no Chile para entregar empanadas aos manifestantes. O jogador foi flagrado por fãs na manhã desta quinta-feira (31/10/2019) ao lado de uma estação de metrô em Santiago.\r\nMais sobre o ass… [+1108 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Superesportes.com.br"
+        },
+        "author": "Superesportes, Superesportes",
+        "title": "Di Santo entende torcedores do Atlético, solta palavrão e diz que se xingaria caso estivesse na arquibancada - Superesportes",
+        "description": "Atacante argentino perdeu pênalti na derrota alvinegra para a Chapecoense",
+        "url": "https://www.mg.superesportes.com.br/app/noticias/futebol/atletico-mg/2019/10/31/noticia_atletico_mg,2922725/atletico-di-santo-diz-que-se-xingaria-se-fosse-torcedor.shtml",
+        "urlToImage": "https://imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2019/10/31/2922725/20191031150056619971u.jpg",
+        "publishedAt": "2019-10-31T17:52:00Z",
+        "content": "ATLÉTICO\r\nAtacante argentino perdeu pênalti na derrota alvinegra para a Chapecoense\r\nAo longo da partida, torcedores protestaram contra a diretoria, o técnico Vagner Mancini e jogadores. Di Santo, que tem moral com a torcida, disse que, se estivesse na arquib… [+1488 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Foxsportsla.com"
+        },
+        "author": "FOX Sports",
+        "title": "CBF confirma alteração de data, e Palmeiras e Flamengo acontecerá no Allianz Parque - Fox Sports",
+        "description": "Antes marcada para o Pacaembu por conta de show no Allianz Parque, a partida agora acontecerá no dia 1° de dezembro",
+        "url": "https://www.foxsportsla.com/news//news/431466-cbf-confirma-alteracao-de-data-e-palmeiras-e-flamengo-acontecera-no-allianz-parque",
+        "urlToImage": "https://cdn.foxsports.com.br/sites/foxsports-br/files/img/notes/materia/1286347_fotoarena-1280.jpg",
+        "publishedAt": "2019-10-31T17:25:00Z",
+        "content": "O Palmeiras ainda sonha com o título brasileiro e terá um grande aliado para o duelo contra o Flamengo, que pode ser chave na reta final da competição. A partida contra o Flamengo, que estava marcada para o dia 30 de novembro, no estádio do Pacaembu, foi repa… [+1026 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Fogaonet.com"
+        },
+        "author": "FogãoNet",
+        "title": "Com meta da diretoria de 30 mil, Botafogo faz campanha para atrair torcida: 'Vamos botar para f...' - FogãoNET",
+        "description": "A torcida do Botafogo abraçou o time. Se aproximando do último terço do Campeonato Brasileiro, a situação da equipe dentro e fora de campo não é das me ...",
+        "url": "https://www.fogaonet.com/noticia/com-meta-da-diretoria-de-30-mil-botafogo-faz-campanha-para-atrair-torcida-vamos-botar-para-f/",
+        "urlToImage": "https://www.fogaonet.com/wp-content/uploads/2019/10/leo-valencia-chamada-botafogo-cruzeiro-2019-fogãonet-1.jpg",
+        "publishedAt": "2019-10-31T17:06:00Z",
+        "content": "A torcida do Botafogo abraçou o time. Se aproximando do último terço do CampeonatoBrasileiro, a situação da equipe dentro e fora de campo não é das melhores, mas os botafoguenses estão provando que o amor à instituição vai além do momento. Para a partida cont… [+1756 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Sem Andrés e com caras fechadas: viajamos com o Corinthians após a derrota que faz Carille balançar - globoesporte.com",
+        "description": "Repórter do GloboEsporte.com retorna a São Paulo no mesmo voo da delegação alvinegra",
+        "url": "https://globoesporte.globo.com/futebol/times/corinthians/noticia/sem-andres-e-com-caras-fechadas-viajamos-com-o-corinthians-apos-a-derrota-que-faz-carille-balancar.ghtml",
+        "urlToImage": "https://s2.glbimg.com/Q02XSWlkm0o58qAAr7oDlji0nwo=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/8048058.jpg",
+        "publishedAt": "2019-10-31T16:38:00Z",
+        "content": "Jogadores, dirigentes e demais profissionais do Corinthians viajaram em avião de carreira, mas não foram importunados por torcedores que também estavam na aeronave. \r\n O presidente Andrés Sanchez não viajou com o grupo. Ele seguiu diretamente de Maceió para o… [+1502 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Foxsportsla.com"
+        },
+        "author": "Gazeta Press",
+        "title": "Fernando Diniz tem reunião 'olho no olho' com titulares do São Paulo após atropelo do Palmeiras - Fox Sports",
+        "description": "Treinador pediu mais intensidade ao São Paulo e comparou a derrota para o Palmeiras com a sofrida em Belo Horizonte para o Cruzeiro",
+        "url": "https://www.foxsportsla.com/news//news/431454-fernando-diniz-tem-reuniao-olho-no-olho-com-titulares-do-sao-paulo-apos-atropelo-do-palmeiras",
+        "urlToImage": "https://cdn.foxsports.com.br/sites/foxsports-br/files/img/notes/materia/1822712_fotoarena-1280.jpg",
+        "publishedAt": "2019-10-31T16:33:00Z",
+        "content": "Após novo revés diante do Palmeiras, no Allianz Parque, o São Paulo se reapresentou nesta quinta-feira e o técnico Fernando Diniz reuniu os jogadores para avaliar o desempenho do Tricolor Paulista na derrota por 2 a 0.\r\nMomentos depois da partida, o comandant… [+1806 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Meutimao.com.br"
+        },
+        "author": "Meu Timão",
+        "title": "Gaviões da Fiel divulga nota oficial com fortes cobranças por desempenho do Corinthians - Meu Timão",
+        "description": "A maior torcida organizada do Corinthians, Gaviões da Fiel, publicou uma nota oficial nesta quinta-feira cobrando a equipe alvinegra por conta dos últimos resultados.",
+        "url": "https://www.meutimao.com.br/noticias-do-corinthians/332022/gavioes-da-fiel-divulga-nota-oficial-com-fortes-cobrancas-por-desempenho-do-corinthians",
+        "urlToImage": "https://cdn.meutimao.com.br/_upload/noticia-share/facebook/2019/10/31/nunca-sera-brincadeira-gavioes-da-fiel-divulga-nota_e5155fa.jpg",
+        "publishedAt": "2019-10-31T16:29:52Z",
+        "content": "A maior torcida organizada do Corinthians, Gaviões da Fiel, publicou uma nota oficial nesta quinta-feira cobrando a equipe alvinegra por conta dos últimos resultados. No texto, os torcedores relatam a falta de vontade dos jogadores e cobram mais raça daqueles… [+4061 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Colunadofla.com"
+        },
+        "author": null,
+        "title": "Goiás x Flamengo – Expectativas dos colunistas - Coluna do Fla",
+        "description": "O Flamengo enfrenta o Goiás em um Serra Dourada que estará lotado na noite desta quinta-feira (31). Todos os ingressos foram vendidos para o duelo da 29ª rodada do Brasileirão, que tem o Rubro-Negro na liderança isolada e o Esmeraldino tentando se aproximar d…",
+        "url": "https://colunadofla.com/2019/10/goias-x-flamengo-expectativas-dos-colunistas/",
+        "urlToImage": "https://colunadofla.com/wp-content/uploads/2019/10/1-modelo-de-jogo.png",
+        "publishedAt": "2019-10-31T16:11:32Z",
+        "content": "O Flamengo enfrenta o Goiás em um Serra Dourada que estará lotado na noite desta quinta-feira (31). Todos os ingressos foram vendidos para o duelo da 29ª rodada do Brasileirão, que tem o Rubro-Negro na liderança isolada e o Esmeraldino tentando se aproximar d… [+2794 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "Fórmula 1 apresenta carro futurista e novo regulamento para temporada 2021 - UOL",
+        "description": "A organização da Fórmula 1 mostrou as primeiras imagens dos carros da temporada de 2021. Eles trazem muitas novidades em relação ao que se vê hoje, com um design arrojado - ou \"sexy\", como a entidade definiu, em seu Twitter - e feito para aumentar as disp",
+        "url": "https://www.uol.com.br/esporte/f1/ultimas-noticias/2019/10/31/formula-1-apresenta-novo-desenho-dos-carros-para-a-temporada-2021.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/esporte/f7/2019/10/31/novo-desenho-do-carro-da-f-1-para-2021-1572538165654_v2_615x300.png",
+        "publishedAt": "2019-10-31T16:07:56Z",
+        "content": "A organização da Fórmula 1 mostrou as primeiras imagens dos carros da temporada de 2021. Eles trazem muitas novidades em relação ao que se vê hoje, com um design arrojado - ou \"sexy\", como a entidade definiu, em seu Twitter - e feito para aumentar as disputas… [+4817 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "Beatriz Cesarini",
+        "title": "Eventual derrota do Fla gera cenário idêntico ao de 2009 na atual rodada - UOL",
+        "description": "Com a vitória sobre o São Paulo na noite de quarta-feira, o Palmeiras chegou aos 60 pontos na 29ª rodada do Campeonato Brasileiro e viu a diferença para o líder Flamengo cair, por enquanto, para sete pontos. O clube carioca ainda entrará em campo hoje à n",
+        "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2019/10/31/eventual-derrota-do-fla-gera-cenario-identico-ao-de-2009-na-atual-rodada.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/esporte/b4/2019/10/30/bruno-henrique-comemora-gol-contra-o-sao-paulo-em-vitoria-do-palmeiras-pelo-brasileirao-2019-1572480220903_v2_615x300.jpg",
+        "publishedAt": "2019-10-31T16:05:59Z",
+        "content": "Com a vitória sobre o São Paulo na noite de quarta-feira, o Palmeiras chegou aos 60 pontos na 29ª rodada do Campeonato Brasileiro e viu a diferença para o líder Flamengo cair, por enquanto, para sete pontos. O clube carioca ainda entrará em campo hoje à noite… [+2938 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Clicrbs.com.br"
+        },
+        "author": "GaúchaZH",
+        "title": "Kannemann é convocado pela Argentina e desfalcará o Grêmio pelo menos em uma partida - GauchaZH",
+        "description": "Seleção argentina jogará contra Brasil e Uruguai",
+        "url": "https://gauchazh.clicrbs.com.br/esportes/gremio/noticia/2019/10/kannemann-e-convocado-pela-argentina-e-desfalcara-o-gremio-pelo-menos-em-uma-partida-ck2ewg5vl0bjs01n3ktaqf233.html",
+        "urlToImage": "https://www.rbsdirect.com.br/imagesrc/25156554.jpg?w=1200&h=630&a=c",
+        "publishedAt": "2019-10-31T16:05:00Z",
+        "content": "Receba gratuitamente o melhor de GaúchaZH no seu e-mail e mantenha-se sempre atualizado."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Uol.com.br"
+        },
+        "author": "UOL",
+        "title": "Zidane explica pouco espaço para Vinicius Junior no Real e elogia Rodrygo - UOL",
+        "description": "O técnico Zinedine Zidane explicou por que Vinicius Júnior recebeu poucas chances com a camisa do Real Madrid nas últimas partidas. O brasileiro não foi sequer relacionado para a goleada de ontem do clube merengue sobre o Leganés, enquanto Rodrygo entrou",
+        "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2019/10/31/zidane-explica-pouco-espaco-para-vinicius-junior-no-real-e-elogia-rodrygo.htm",
+        "urlToImage": "https://conteudo.imguol.com.br/c/esporte/a0/2019/10/30/rodrygo-comemora-gol-do-real-madrid-contra-o-leganes-1572484354757_v2_615x300.jpg",
+        "publishedAt": "2019-10-31T15:33:47Z",
+        "content": "O técnico Zinedine Zidane explicou por que Vinicius Júnior recebeu poucas chances com a camisa do Real Madrid nas últimas partidas. O brasileiro não foi sequer relacionado para a goleada de ontem do clube merengue sobre o Leganés, enquanto Rodrygo entrou como… [+1185 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "Com vendas e bilheteria em alta, Flamengo fecha terceiro trimestre com R$ 652 milhões de receitas - globoesporte.com",
+        "description": "Rubro-Negro contabiliza R$ 74,7 milhões de superávit. São R$ 65,3 milhões de resultado financeiro de jogos. Paquetá, Uribe, Jean Lucas, Léo Duarte, Trauco e Cuéllar geram R$ 295 milhões",
+        "url": "https://globoesporte.globo.com/futebol/times/flamengo/noticia/vendas-e-bilheteria-elevam-terceiro-tri-do-flamengo-receitas-crescem-60percent-e-ja-batem-r-652-milhoes-em-2019.ghtml",
+        "urlToImage": "https://s2.glbimg.com/4sA_HmV8zqBCDuTC0o6MhoPYxmI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/X/R/4ENACOQyO7hE6Ot9qDwg/46.jpg",
+        "publishedAt": "2019-10-31T15:32:00Z",
+        "content": "O Flamengo divulgou nesta quinta-feira os resultados financeiros do terceiro trimestre. A comparação com o mesmo período de 2018 mostra o bom momento do clube, impulsionado pelas vendas e pela alta bilheteria, que compensam a agressividade do Rubro-Negro no m… [+1444 chars]"
+      },
+      {
+        "source": {
+          "id": "globo",
+          "name": "Globo"
+        },
+        "author": null,
+        "title": "\"Fofo\" e popular, nutricionista do Flamengo faz sucesso na internet e ganha fama até nos estádios - globoesporte.com",
+        "description": "Thiago Monteiro tem mais seguidor do que quase metade do elenco e conquista jogadores com linguagem objetiva que rebate mitos da profissão: \"A indústria apela, se vende pelo rótulo\"",
+        "url": "https://globoesporte.globo.com/futebol/times/flamengo/noticia/fofo-e-popular-nutricionista-do-flamengo-faz-sucesso-nas-redes-sociais-e-ate-nos-estadios.ghtml",
+        "urlToImage": "https://s2.glbimg.com/jgUXMaR3UpaGTj2uZUi8HXEbJsI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/V/g/oeHqmBTW2xTuYFscdGfw/whatsapp-image-2019-10-31-at-12.10.02.jpeg",
+        "publishedAt": "2019-10-31T15:22:00Z",
+        "content": "Cardápio do dia: fofura espalhada em porções de sinceridade, bom humor e popularidade. Se quando a fase é boa reflete em todo mundo, o nutricionista Thiago Monteiro engrossa a lista de sucesso do Flamengo em 2019. Fenômeno nas redes sociais, o Nutri Fofo, com… [+4255 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Foxsportsla.com"
+        },
+        "author": "FOX Sports",
+        "title": "O alerta de Piqué a Neymar que o brasileiro deveria ter escutado antes de ir para o PSG - Fox Sports",
+        "description": "Em entrevista à rádio espanhola Cadena SER, o zagueiro do Barcelona deixou claro que o atacante estava indo para uma 'prisão de ouro' no clube francês",
+        "url": "https://www.foxsportsla.com/news//news/431442-o-alerta-de-pique-a-neymar-que-o-brasileiro-deveria-ter-escutado-antes-de-ir-para-o-psg",
+        "urlToImage": "https://cdn.foxsports.com.br/sites/foxsports-br/files/img/notes/materia/Neymar_durante_treinamento_no_PSG_EFE_1280.jpg",
+        "publishedAt": "2019-10-31T15:13:00Z",
+        "content": "No dia 3 de agosto de 2017 o Paris Saint-Germain confirmava a contratação mais da história do futebol, ao desembolsar 222 milhões de euros (R$ 987,5 milhões, na cotação atual) para tirar Neymar do Barcelona. Passados dois anos, em que acumulou algumas polêmic… [+1492 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Foxsportsla.com"
+        },
+        "author": "FOX Sports",
+        "title": "Em tour pelo Brasil, Barcelona conversou com representantes de joia do Cruzeiro - Fox Sports",
+        "description": "De acordo com o jornal catalão Sport, o diretor esportivo do clube, Eric Abidal, aproveitou a sua passagem pelo país para iniciar os primeiros contatos por Éderson",
+        "url": "https://www.foxsportsla.com/news//news/431440-em-tour-pelo-brasil-barcelona-conversou-com-representantes-de-joia-do-cruzeiro",
+        "urlToImage": "https://cdn.foxsports.com.br/sites/foxsports-br/files/img/notes/materia/Abidal_teve_passagem_pelo_Brasil_por_reforcos_Instagram_1280.jpg",
+        "publishedAt": "2019-10-31T14:50:00Z",
+        "content": "Autor do gol da virada do Cruzeiro por 2 a 1 sobre o Corinthians, em Itaquera, pela 27ª rodada do Brasileirão, o meio-campista Éderson já desperta o interesse do Barcelona. De acordo com publicação do jornal catalão Sport, durante o tour que vem fazendo pelo … [+1916 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Gazetaesportiva.com"
+        },
+        "author": null,
+        "title": "Sampaoli tem dois desfalques de última hora para enfrentar o Bahia - Gazeta Esportiva",
+        "description": "",
+        "url": "https://www.gazetaesportiva.com/times/santos/sampaoli-tem-outros-dois-desfalques-de-ultima-hora-para-enfrentar-o-bahia/",
+        "urlToImage": "https://www.gazetaesportiva.com/wp-content/uploads/imagem/2019/10/31/Capturar-2.png",
+        "publishedAt": "2019-10-31T14:46:38Z",
+        "content": "Querendo abrir seis pontos de distância para o São Paulo, atual quarto colocado, o Santostem compromisso marcado para esta quinta-feira, às 19h15 (de Brasília), contra o Bahia, na Vila Belmiro, pela 29ª rodada do Brasilerão. Além de Diego Pituca, que ainda se… [+1377 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Espn.com.br"
+        },
+        "author": null,
+        "title": "Após Klopp falar até em W.O., Inglaterra deve adiar jogo do Liverpool - ESPN.com.br",
+        "description": "O jogo estava marcado para a semana que se inicia em 15 de dezembro",
+        "url": "https://www.espn.com.br/futebol/artigo/_/id/6262309/apos-klopp-falar-ate-em-wo-inglaterra-deve-adiar-jogo-do-liverpool",
+        "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0531%2Fr550417_1296x729_16%2D9.jpg",
+        "publishedAt": "2019-10-31T14:37:38Z",
+        "content": "Lives, conteúdos originais e o melhor da programação da ESPN! Inscreva-se no nosso canal do YouTube, ative as notificações e não perca nenhum vídeo!\r\nApós a épica vitória nos pênaltis sobre o Arsenal, após empate por 5 a 5 no tempo normal, pela Copa da Liga I… [+1745 chars]"
+      }
+    ]
+  },
+
   "categorys": [
+    {
+      "type": "general",
+      "color": "#d12ea3",
+      "label": "Geral"
+    },
     {
       "type": "technology",
       "color": "#084d6e",
@@ -273,18 +1881,13 @@
     },
     {
       "type": "business",
-      "color": "#581d22",
+      "color": "#FF0000",
       "label": "Negócios"
     },
     {
       "type": "entertainment",
       "color": "#00c6d1",
       "label": "Entreterimento"
-    },
-    {
-      "type": "general",
-      "color": "#d12ea3",
-      "label": "Geral"
     },
     {
       "type": "health",
@@ -301,206 +1904,5 @@
       "color": "#7659c1",
       "label": "Esporte"
     }
-  ],
-  "everything": {
-    "status": "ok",
-    "totalResults": 170,
-    "articles": [
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Sam Rutherford",
-        "title": "Apple agora tem os AirPods Pro, novos fones de ouvido com cancelamento de ruído",
-        "description": "Apple anunciou nos EUA os AirPods Pro; como novidade, eles têm cancelamento de ruído e diferentes ponteiras de silicone para ajudar no encaixe. The post Apple agora tem os AirPods Pro, novos fones de ouvido com cancelamento de ruído appeared first on Gizmodo …",
-        "url": "https://gizmodo.uol.com.br/apple-airpods-pro-cancelamento-ruido/",
-        "urlToImage": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2019/10/airpods-pro-1000x563.jpg",
-        "publishedAt": "2019-10-28T21:00:24Z",
-        "content": "Após pessoas descobrirem indicativos de novos AirPods no código do iOS 13.2, parecia que o anúncio da próxima geração de fones de ouvido sem fio da Apple era iminente. E nesta segunda-feira (28), a Apple acabou com todas as dúvidas ao anunciar os AirPods Pro … [+5615 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Erika Nishida",
-        "title": "Apple dá ultimato para donos de iPhone 5 atualizarem sistema, se quiserem continuar online",
-        "description": "Apple está alertando donos de iPhone 5 a atualizem para a versão iOS 10.3.4 até o dia 3 de novembro para manter acesso a recursos online. The post Apple dá ultimato para donos de iPhone 5 atualizarem sistema, se quiserem continuar online appeared first on Giz…",
-        "url": "https://gizmodo.uol.com.br/apple-iphone-5-atualizacao-online/",
-        "urlToImage": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2019/06/iphone-5s-getty-1000x563.jpg",
-        "publishedAt": "2019-10-28T15:21:07Z",
-        "content": "A Apple está enviando alertas a donos de iPhone 5 informando que, caso não atualizem o sistema para a versão iOS 10.3.4 até o dia 3 de novembro, eles perderão acesso a recursos online, como e-mail, navegador de internet, App Store e iCloud.\r\nEm julho deste an… [+1237 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Tecnoblog.net"
-        },
-        "author": "Lucas Braga",
-        "title": "Apple AirPods Pro têm cancelamento de ruído e custam R$ 2.249",
-        "description": "Apple AirPods Pro será lançado nos EUA por US$ 249; fone de ouvido sem fio tem microfones para cancelamento de ruído Apple AirPods Pro têm cancelamento de ruído e custam R$ 2.249",
-        "url": "https://tecnoblog.net/312392/apple-airpods-pro-fones-ouvido-cancelamento-ruido/",
-        "urlToImage": "https://cdn.tecnoblog.net/wp-content/uploads/2019/10/apple-airpods-pro-4-700x381.jpg",
-        "publishedAt": "2019-10-28T17:19:36Z",
-        "content": "Sem muito alarde, a Apple anunciou os AirPods Pro: os novos fones de ouvido Bluetooth trazem cancelamento ativo de ruído e prometem uma experiência de som superior e mais imersiva. O lançamento já era esperado por conta de vazamentos. Eles serão vendidos a pa… [+1878 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Tecnoblog.net"
-        },
-        "author": "Felipe Ventura",
-        "title": "Apple libera iOS 13.2 com Deep Fusion para iPhone 11 e novos emojis",
-        "description": "iOS 13.2 para iPhone, iPadOS 13.2 para iPad e tvOS 13.2 para Apple TV são compatíveis com novos fones de ouvido AirPods Pro Apple libera iOS 13.2 com Deep Fusion para iPhone 11 e novos emojis",
-        "url": "https://tecnoblog.net/312400/apple-libera-ios-13-2-deep-fusion-iphone-11-novos-emojis/",
-        "urlToImage": "https://cdn.tecnoblog.net/wp-content/uploads/2019/10/apple-airpods-pro-2-700x400.jpg",
-        "publishedAt": "2019-10-28T18:18:18Z",
-        "content": "A Apple lançou nesta segunda-feira (28) o iOS 13.2 para iPhone, iPadOS 13.2 para iPad e tvOS 13.2 para Apple TV: a atualização torna esses dispositivos compatíveis com os novos fones de ouvido AirPods Pro. Além disso, há suporte a novos emojis, Deep Fusion pa… [+2301 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Tecnoblog.net"
-        },
-        "author": "Lucas Braga",
-        "title": "Apple avisa que iPhone 5 precisa ser atualizado até 3 de novembro",
-        "description": "Apple atualiza iOS para resolver problema de GPS no iPhone 5, iPhone 4s, iPad 2, iPad 3 e iPad mini Apple avisa que iPhone 5 precisa ser atualizado até 3 de novembro",
-        "url": "https://tecnoblog.net/312324/apple-avisa-iphone-5-precisa-ser-atualizado-gps/",
-        "urlToImage": "https://cdn.tecnoblog.net/wp-content/uploads/2019/10/iphone-5-700x438.jpg",
-        "publishedAt": "2019-10-28T13:25:25Z",
-        "content": "O iPhone 5 foi lançado há 7 anos, mas ainda é utilizado no dia a dia de várias pessoas: a Apple avisa que quem tem este celular precisa atualizar o iOS para a versão 10.3.4 antes de 3 de novembro, para evitar problemas com serviços online. Além disso, o iPhon… [+1203 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Tecmundo.com.br"
-        },
-        "author": "Leonardo Rocha",
-        "title": "Smartwatch da Xiaomi, AirPods Pro, Google quer a FitBit – Hoje no TecMundo",
-        "description": "Na edição do Hoje no TecMundo desta segunda-feira (28), falamos dos novos AirPods Pro revelados pela Apple, da data do anúncio do vindrouro smartwatch da Xiaomi e do interesse da Google na marca de wearables FitBit. Temos também novas informações sobre o Wind…",
-        "url": "https://www.tecmundo.com.br/internet/147222-smartwatch-xiaomi-airpods-pro-google-quer-fitbit-tecmundo.htm",
-        "urlToImage": "https://img.ibxk.com.br/2019/10/28/28190821760090.jpg",
-        "publishedAt": "2019-10-28T22:08:34Z",
-        "content": "Na edição do Hoje no TecMundo desta segunda-feira (28), falamos dos novos AirPods Pro revelados pela Apple, da data do anúncio do vindrouro smartwatch da Xiaomi e do interesse da Google na marca de wearables FitBit. Temos também novas informações sobre o Wind… [+623 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Eduardo Marques",
-        "title": "Apple Music está fora do ar para alguns usuários",
-        "description": "Segundo a página Status do Sistema da Apple, o Apple Music e a rádio online gratuita Beats 1 estão passando por instabilidades. A empresa informou que alguns usuários estão enfrentando...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/apple-music-esta-fora-do-ar-para-alguns-usuarios/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/10/28-musica.png",
-        "publishedAt": "2019-10-28T20:15:25Z",
-        "content": "Segundo a página Status do Sistema da Apple, o Apple Music e a rádio online gratuita Beats 1 estão passando por instabilidades. A empresa informou que alguns usuários estão enfrentando problemas com tais serviços paralelamente, o MacMagazine já recebeu divers… [+815 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Sapo.pt"
-        },
-        "author": "Vítor M.",
-        "title": "Apple anuncia AirPods Pro com cancelamento de ruído por 279 euros",
-        "description": "Os rumores confirma-se. A Apple publicou há pouco um comunicado de imprensa a dar conta do lançamento do seu novo produto: AirPods Pro. Estes são os auscultadores da Apple que trazem cancelamento de ruído. Segundo a empresa, estes serão lançados no dia 30 de …",
-        "url": "https://pplware.sapo.pt/apple/apple-anuncia-airpods-pro-com-cancelamento-de-ruido-para-dia-30-de-outubro/",
-        "urlToImage": "https://pplware.sapo.pt/wp-content/uploads/2019/10/airpods_pro_00.jpg",
-        "publishedAt": "2019-10-28T16:10:47Z",
-        "content": "Os rumores confirmam-se. A Apple publicou há pouco um comunicado de imprensa a dar conta do lançamento do seu novo produto: AirPods Pro. Estes são os auscultadores da Apple que trazem cancelamento de ruído. Segundo a empresa, estes serão lançados no dia 30 de… [+2656 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Rafael Fischmann",
-        "title": "Acabou a espera: Apple anuncia os AirPods Pro",
-        "description": "Confirmando inúmeros rumores dos últimos dias, a Apple acaba de anunciar os AirPods Pro — e, como esperado, eles entram como um novo membro da “família”, trazendo cancelamento ativo de...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/acabou-a-espera-apple-anuncia-os-airpods-pro/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/10/28-airpods.jpg",
-        "publishedAt": "2019-10-28T16:05:34Z",
-        "content": "Confirmando inúmeros rumores dos últimos dias, a Apple acaba de anunciar os AirPods Pro e, como esperado, eles entram como um novo membro da “família”, trazendo cancelamento ativo de ruídos e uma promessa de som superior ao modelo normal.\r\nEles chegarão ao me… [+140 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Luiz Gustavo Ribeiro",
-        "title": "Apple poderá lançar novos gadgets domésticos inteligentes além do HomePod",
-        "description": "A área de automação residencial tem um potencial extremo, mas infelizmente a Apple não consegue acompanhar o mercado (pelo menos por enquanto). Além de oferecer a plataforma HomeKit, a gigante...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/apple-podera-lancar-novos-gadgets-domesticos-inteligentes-alem-do-homepod/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/10/28-Casa-Apple-TV-HomePod.jpg",
-        "publishedAt": "2019-10-28T15:38:17Z",
-        "content": "A área de automação residencial tem um potencial extremo, mas infelizmente a Apple não consegue acompanhar o mercado (pelo menos por enquanto). Além de oferecer a plataforma HomeKit, a gigante de Cupertino dispõe de poucos gadgets residenciais, dos quais pode… [+1759 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Eduardo Marques",
-        "title": "Futuros iPhones poderão adotar tela com a mesma tecnologia da do Apple Watch",
-        "description": "Em 2018, quando lançou o Apple Watch Series 4, a Maçã adotou — pela primeira vez em um produto — uma tela OLED LTPO. OLED quer dizer organic light-emitting diode...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/futuros-iphones-poderao-adotar-tela-com-a-mesma-tecnologia-da-do-apple-watch/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/10/25-apple-watch-edition-titanio-1260x746.jpg",
-        "publishedAt": "2019-10-28T20:50:13Z",
-        "content": "Em 2018, quando lançou o Apple Watch Series 4, a Maçã adotou pela primeira vez em um produto uma tela OLED LTPO. OLED quer dizer organic light-emitting diode (ou diodo emissor de luz orgânico), enquanto LTPO significa low-temperature polycrystalline oxid (ou … [+1609 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Eduardo Marques",
-        "title": "Alguns HomePods pararam de funcionar ao atualizar para o iOS 13.2",
-        "description": "Hoje, como informamos, a Apple liberou o iOS/iPadOS 13.2, bem como o iOS 12.4.3, o tvOS 13.2 e audioOS 13.2 (software que equipa o HomePod). Paralelamente, pouco depois da chegada...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/alguns-homepods-pararam-de-funcionar-ao-atualizar-para-o-ios-13-2/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2018/05/29-homepod.jpg",
-        "publishedAt": "2019-10-28T23:34:12Z",
-        "content": "Hoje, como informamos, a Apple liberou o iOS/iPadOS 13.2, bem como o iOS 12.4.3, o tvOS 13.2 e audioOS 13.2 (software que equipa o HomePod). Paralelamente, pouco depois da chegada desses sistemas, o Apple Music parou de funcionar para alguns clientes ao redor… [+1539 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Luiz Gustavo Ribeiro",
-        "title": "Homem é condenado a 4 anos de prisão por fraude de US$1,5 milhão no Apple Pay",
-        "description": "O Departamento de Justiça dos Estados Unidos anunciou que condenou Daniel Butler, um homem de 30 anos, residente de Miami (na Flórida), a 4 anos de prisão por fraudar o...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/homem-e-condenado-a-4-anos-de-prisao-por-fraude-de-us15-milhao-no-apple-pay/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/10/28-pagamento-movel.jpg",
-        "publishedAt": "2019-10-28T13:30:44Z",
-        "content": "O Departamento de Justiça dos Estados Unidosanunciou que condenou Daniel Butler, um homem de 30 anos, residente de Miami (na Flórida), a 4 anos de prisão por fraudar o sistema de pagamento móvel da Apple.\r\nSegundo documentos judiciais, Butler e outras três pe… [+1352 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Luiz Gustavo Ribeiro",
-        "title": "Spotify continua crescendo e diz que seu engajamento é melhor que o do Apple Music",
-        "description": "O Spotify anunciou hoje que alcançou 113 milhões de assinantes pagantes no terceiro trimestre fiscal, ante 108 milhões em 30 de junho. A contagem de usuários ativos (que usam a...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/spotify-continua-crescendo-e-diz-que-seu-engajamento-e-melhor-que-o-do-apple-music/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/10/28-Spotify-iPhone.jpg",
-        "publishedAt": "2019-10-28T18:00:43Z",
-        "content": "O Spotifyanunciou hoje que alcançou 113 milhões de assinantes pagantes no terceiro trimestre fiscal, ante 108 milhões em 30 de junho. A contagem de usuários ativos (que usam a versão premium e gratuita do serviço) da plataforma também subiu, para 248 milhões.… [+2633 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Uol.com.br"
-        },
-        "author": "Bruno Santana",
-        "title": "Rastreador da Apple deverá se chamar “AirTag”; surgem imagens de novas Smart Battery Cases",
-        "description": "Já faz algum tempo desde a última vez em que falamos sobre os (supostos) vindouros acessórios de rastreamento da Apple, que farão uso do chip U1 dos novos iPhones e...",
-        "url": "https://macmagazine.uol.com.br/post/2019/10/28/rastreador-da-apple-devera-se-chamar-airtag-surgem-imagens-de-novas-smart-battery-cases/",
-        "urlToImage": "https://macmagazine.uol.com.br/wp-content/uploads/2019/09/6-Tile-Render.jpg",
-        "publishedAt": "2019-10-28T19:58:50Z",
-        "content": "Já faz algum tempo desde a última vez em que falamos sobre os (supostos) vindouros acessórios de rastreamento da Apple, que farão uso do chip U1 dos novos iPhones e deverão ser apresentados em algum momento dos próximos meses (ou dias). Pois hoje nosso amigo … [+2362 chars]"
-      }
-    ]
-  }
+  ]
 }

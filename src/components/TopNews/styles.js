@@ -21,7 +21,6 @@ export const ItemList = styled.View`
   width: 200px;
   border-radius: 10px;
   margin-right: 10px;
-  border: 1px solid #eee;
 `;
 
 export const Header = styled.View`
@@ -37,7 +36,8 @@ export const ImageList = styled.Image`
   width: 200px;
   height: 100px;
   background: #eee;
-  border-width: 0;
+  border-width: 1px;
+  border-color: #ddd;
 `;
 
 export const TitleNews = styled.Text.attrs({

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {StatusBar} from 'react-native';
 
 import Category from 'components/Category';
 import TopNews from 'components/TopNews';
@@ -14,17 +15,24 @@ const Main = () => {
   const [allNewsContext, setAllNewsContext] = useState([]);
 
   return (
-    <Container>
-      <CategorySelectedContext.Provider
-        value={{selectedCategory, setSelectedCategory}}>
-        <Category />
-        <AllNewsContext.Provider value={{allNewsContext, setAllNewsContext}}>
-          <TopNews />
-          <AllNews />
-        </AllNewsContext.Provider>
-      </CategorySelectedContext.Provider>
-    </Container>
+    <>
+      <StatusBar headerTintColor="#000" />
+      <Container>
+        <CategorySelectedContext.Provider
+          value={{selectedCategory, setSelectedCategory}}>
+          <Category />
+          <AllNewsContext.Provider value={{allNewsContext, setAllNewsContext}}>
+            <TopNews />
+            <AllNews />
+          </AllNewsContext.Provider>
+        </CategorySelectedContext.Provider>
+      </Container>
+    </>
   );
+};
+
+Main.navigationOptions = {
+  header: null,
 };
 
 export default Main;
