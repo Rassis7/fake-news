@@ -3,8 +3,10 @@ import {useNavigationParam} from 'react-navigation-hooks';
 import {StatusBar, SafeAreaView} from 'react-native';
 import {ScrollView, View} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-Icon.loadFont();
 
+import ShareNews from 'components/ShareNews';
+
+Icon.loadFont();
 import {
   HeaderLeftView,
   Header,
@@ -68,6 +70,11 @@ News.navigationOptions = ({navigation}) => {
       backgroundColor: navigation.getParam('categoryColor'),
     },
     headerTintColor: '#fff',
+    headerRight: (
+      <>
+        <ShareNews news={navigation.getParam('item')} size={24} color="#fff" />
+      </>
+    ),
     headerLeft: (
       <HeaderLeftView onPress={() => navigation.goBack()}>
         <Icon name="keyboard-arrow-down" size={40} color="#fff" />
