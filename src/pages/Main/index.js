@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import {StatusBar, Animated} from 'react-native';
+import {useNavigation} from 'react-navigation-hooks';
 
 import Category from 'components/Category';
 import TopNews from 'components/TopNews';
@@ -18,14 +19,16 @@ const Main = () => {
 
   const animatedScrollYValue = useRef(new Animated.Value(0)).current;
 
+  const {navigate} = useNavigation();
+
   useEffect(() => {
     const getNews = async () => {
       if (!selectedCategory) return;
       try {
-        // const response = await api.get('/top-headlines?country=br&category=business');
         const response = await api.get(
-          `/top-headlines-${selectedCategory.type}`,
+          `/top-headlines?country=br&category=${selectedCategory.type}&apiKey=9e5574008a3e438e9758d1e389a7b20f`,
         );
+
         const newsData = response.data.articles;
 
         //Vou setar aproximadamente 20% das noticias buscadas e o resto listarei abaixo
@@ -77,7 +80,7 @@ const Main = () => {
             style={{
               maxHeight: animatedScrollYValue.interpolate({
                 inputRange: [0, 180],
-                outputRange: [300, 0],
+                outputRange: [260, 0],
                 extrapolate: 'clamp',
               }),
               opacity: animatedScrollYValue.interpolate({
@@ -92,7 +95,6 @@ const Main = () => {
             scrollEventThrottle={16}
             onScroll={Animated.event([
               {nativeEvent: {contentOffset: {y: animatedScrollYValue}}},
-              // {useNativeDriver: true},
             ])}
           />
         </CategorySelectedContext.Provider>

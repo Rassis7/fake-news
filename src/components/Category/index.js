@@ -1,24 +1,14 @@
-import React, {useState, useEffect, useContext} from 'react';
-import api from 'services/api';
+import React, {useContext} from 'react';
 import CategorySelectedContext from 'context/Category';
+import {useCategory} from 'hooks/category';
 
 import {Container, List, Item, ItemText, TitleCategory} from './styles';
 
 const Category = ({...props}) => {
-  const [category, setCategory] = useState([]);
   const {selectedCategory, setSelectedCategory} = useContext(
     CategorySelectedContext,
   );
-
-  useEffect(() => {
-    const getCategorys = async () => {
-      const response = await api.get(`/categorys`);
-
-      setCategory(response.data);
-      if (!selectedCategory) handleSelectedCategory(response.data[0]);
-    };
-    getCategorys();
-  }, [selectedCategory]);
+  const category = useCategory();
 
   const handleSelectedCategory = category => {
     setSelectedCategory(category);
