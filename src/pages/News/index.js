@@ -46,14 +46,10 @@ const News = () => {
             <PublishedAt>{publishedAt}</PublishedAt>
             <Title>{title}</Title>
           </View>
-
           <Border border={color} />
-
           <ContentBody>
             <ContentNews>{content !== '' ? content : description}</ContentNews>
-
             <Border border={color} />
-
             <OriginalNews>{url}</OriginalNews>
           </ContentBody>
         </Content>

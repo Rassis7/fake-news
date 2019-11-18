@@ -4,7 +4,7 @@ import CategorySelectedContext from 'context/Category';
 
 import {Container, List, Item, ItemText, TitleCategory} from './styles';
 
-const Category = () => {
+const Category = ({...props}) => {
   const [category, setCategory] = useState([]);
   const {selectedCategory, setSelectedCategory} = useContext(
     CategorySelectedContext,
@@ -25,7 +25,7 @@ const Category = () => {
   };
 
   return (
-    <Container>
+    <Container {...props}>
       <TitleCategory>Categorias</TitleCategory>
       <List
         horizontal={true}

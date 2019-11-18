@@ -1,17 +1,12 @@
+import {Animated} from 'react-native';
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-  flex: 1;
-  padding: 10px;
-  margin-top: 0;
-  max-height: 300px;
-`;
-
-export const List = styled.FlatList.attrs({
+export const List = styled(Animated.FlatList).attrs({
   showsHorizontalScrollIndicator: false,
 })`
   flex-direction: row;
   flex: 1;
+  padding: 10px;
 `;
 
 export const ItemList = styled.View`
@@ -21,15 +16,6 @@ export const ItemList = styled.View`
   width: 200px;
   border-radius: 10px;
   margin-right: 10px;
-`;
-
-export const Header = styled.View`
-  padding: 0 0 15px;
-`;
-
-export const Title = styled.Text`
-  font-size: 25px;
-  color: #999;
 `;
 
 export const ImageList = styled.Image`

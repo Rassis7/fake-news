@@ -1,11 +1,12 @@
 import styled, {css} from 'styled-components/native';
+import {Animated} from 'react-native';
 import Touchable from 'react-native-platform-touchable';
 
-export const Container = styled.View`
+export const Container = styled(Animated.View)`
   flex: 1;
   margin-top: 50px;
   margin-bottom: 35px;
-  max-height: 150px;
+  /* max-height: 150px; */
 `;
 
 export const TitleCategory = styled.Text`

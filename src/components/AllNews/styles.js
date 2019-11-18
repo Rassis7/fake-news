@@ -1,13 +1,12 @@
 import styled from 'styled-components/native';
+import {Animated} from 'react-native';
 
-export const Container = styled.View`
+export const List = styled(Animated.FlatList).attrs({
+  showsVerticalScrollIndicator: false,
+})`
   flex: 1;
   padding: 10px;
 `;
-
-export const List = styled.FlatList.attrs({
-  showsVerticalScrollIndicator: false,
-})``;
 
 export const Card = styled.View`
   background: #fff;
