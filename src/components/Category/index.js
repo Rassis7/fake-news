@@ -3,12 +3,17 @@ import CategorySelectedContext from 'context/Category';
 import {useCategory} from 'hooks/category';
 
 import {Container, List, Item, ItemText, TitleCategory} from './styles';
+import {useFocusEffect} from 'react-navigation-hooks';
 
 const Category = ({...props}) => {
   const {selectedCategory, setSelectedCategory} = useContext(
     CategorySelectedContext,
   );
   const category = useCategory();
+
+  useFocusEffect(() => {
+    if (!selectedCategory) handleSelectedCategory(category[0]);
+  }, [category]);
 
   const handleSelectedCategory = category => {
     setSelectedCategory(category);

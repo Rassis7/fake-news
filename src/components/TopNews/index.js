@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useMemo} from 'react';
 import Touchable from 'react-native-platform-touchable';
 import CategorySelectedContext from 'context/Category';
 import {useNavigation} from 'react-navigation-hooks';
@@ -19,11 +19,17 @@ export default function TopNews({topNews, ...props}) {
 
   const {navigate} = useNavigation();
 
+  const topNewsMemo = useMemo(
+    () =>
+      topNews.filter(a => a.title && a.urlToImage && a.url && a.description),
+    [topNews],
+  );
+
   return (
     <List
       {...props}
       horizontal={true}
-      data={topNews}
+      data={topNewsMemo}
       keyExtractor={item => item.url}
       ListEmptyComponent={
         <>

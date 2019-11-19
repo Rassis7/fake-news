@@ -7,10 +7,9 @@ import TopNews from 'components/TopNews';
 import AllNews from 'components/AllNews';
 
 import CategorySelectedContext from 'context/Category';
+import {getNews} from 'services/api/news';
 
-import api from 'services/api';
-
-import {Container, HeaderNews, TitleNews, AnimationView} from './styles';
+import {Container, HeaderNews, TitleNews} from './styles';
 
 const Main = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -22,33 +21,27 @@ const Main = () => {
   const {navigate} = useNavigation();
 
   useEffect(() => {
-    const getNews = async () => {
+    const getNewsData = async () => {
       if (!selectedCategory) return;
+
       try {
-        const response = await api.get(
-          `/top-headlines?country=br&category=${selectedCategory.type}&apiKey=9e5574008a3e438e9758d1e389a7b20f`,
-        );
+        const newsData = await getNews(selectedCategory.type);
 
-        const newsData = response.data.articles;
-
-        //Vou setar aproximadamente 20% das noticias buscadas e o resto listarei abaixo
-        const newsPercent = newsData.slice(0, parseInt(newsData.length * 0.2));
-        setTopNews(newsPercent);
-
-        //Seto o restante no context
-        setAllNews(
-          newsData.slice(parseInt(newsData.length * 0.2, newsData.length)),
-        );
+        if (newsData) {
+          //Vou setar aproximadamente 20% das noticias buscadas e o resto listarei abaixo
+          setTopNews(newsData.slice(0, parseInt(newsData.length * 0.2)));
+          setAllNews(
+            newsData.slice(parseInt(newsData.length * 0.2, newsData.length)),
+          );
+        }
       } catch (e) {
-        console.tron.log('error', e);
+        console.tron.log('ERROR:', e);
         navigate('NotData');
       }
     };
-
-    getNews();
+    getNewsData();
   }, [selectedCategory]);
 
-  console.log('animatedScrollYValue', animatedScrollYValue);
   return (
     <>
       <StatusBar headerTintColor="#000" />
@@ -75,28 +68,32 @@ const Main = () => {
           <HeaderNews>
             <TitleNews>Principais noticías</TitleNews>
           </HeaderNews>
-          <TopNews
-            topNews={topNews}
-            style={{
-              maxHeight: animatedScrollYValue.interpolate({
-                inputRange: [0, 180],
-                outputRange: [260, 0],
-                extrapolate: 'clamp',
-              }),
-              opacity: animatedScrollYValue.interpolate({
-                inputRange: [0, 80, 95, 130, 150],
-                outputRange: [1, 0.7, 0.8, 0.4, 0],
-                extrapolate: 'clamp',
-              }),
-            }}
-          />
-          <AllNews
-            allNews={allNews}
-            scrollEventThrottle={16}
-            onScroll={Animated.event([
-              {nativeEvent: {contentOffset: {y: animatedScrollYValue}}},
-            ])}
-          />
+          {topNews && (
+            <TopNews
+              topNews={topNews}
+              style={{
+                maxHeight: animatedScrollYValue.interpolate({
+                  inputRange: [0, 180],
+                  outputRange: [260, 0],
+                  extrapolate: 'clamp',
+                }),
+                opacity: animatedScrollYValue.interpolate({
+                  inputRange: [0, 80, 95, 130, 150],
+                  outputRange: [1, 0.7, 0.8, 0.4, 0],
+                  extrapolate: 'clamp',
+                }),
+              }}
+            />
+          )}
+          {allNews && (
+            <AllNews
+              allNews={allNews}
+              scrollEventThrottle={16}
+              onScroll={Animated.event([
+                {nativeEvent: {contentOffset: {y: animatedScrollYValue}}},
+              ])}
+            />
+          )}
         </CategorySelectedContext.Provider>
       </Container>
     </>

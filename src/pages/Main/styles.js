@@ -15,9 +15,3 @@ export const TitleNews = styled.Text`
   font-size: 25px;
   color: #999;
 `;
-
-export const AnimationView = styled(Animated.View)`
-  top: 0;
-  left: 0;
-  right: 0;
-`;

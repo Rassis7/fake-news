@@ -1,8 +1,10 @@
-import React, {useMemo, useContext} from 'react';
+import React, {useState, useMemo, useContext, useEffect} from 'react';
+import {View, ActivityIndicator} from 'react-native';
 import Touchable from 'react-native-platform-touchable';
 import CategorySelectedContext from 'context/Category';
 import {useNavigation} from 'react-navigation-hooks';
 import Skeleton from 'components/Skeleton';
+import {getNews} from 'services/api/news';
 
 import {
   List,
@@ -11,19 +13,51 @@ import {
   CardContent,
   Title,
   Description,
-  CardFooter,
+  Loading,
 } from './styles';
 
 const AllNews = ({allNews, ...props}) => {
+  const [loading, setLoading] = useState(false);
+  const [page, setPage] = useState(2);
+  const [allNewsState, setAllNewsState] = useState([]);
+
   const {selectedCategory} = useContext(CategorySelectedContext);
   const {navigate} = useNavigation();
 
-  const loadPage = async (pageNumber = 1) => {};
+  useEffect(() => {
+    setPage(2);
+    setAllNewsState([]);
+  }, [selectedCategory]);
 
   const allNewsMemo = useMemo(
-    () => allNews.filter(a => a.title && a.urlToImage && a.urlToImage),
-    [allNews],
+    () =>
+      [...allNews, ...allNewsState].filter(
+        a => a.title && a.urlToImage && a.url && a.description,
+      ),
+    [allNews, allNewsState],
   );
+
+  const renderFooter = () => {
+    if (!loading) return null;
+    return (
+      // <View style={styles.loading}>
+      <Loading>
+        <ActivityIndicator />
+      </Loading>
+    );
+  };
+
+  const loadingNews = async () => {
+    if (loading) return;
+    setLoading(true);
+
+    const news = await getNews(selectedCategory.type, page);
+    console.tron.log('page', page);
+
+    await setAllNewsState([...allNewsState, ...news]);
+    setPage(page + 1);
+    setLoading(false);
+  };
 
   return (
     <List
@@ -67,6 +101,9 @@ const AllNews = ({allNews, ...props}) => {
           </Card>
         </Touchable>
       )}
+      onEndReached={loadingNews}
+      onEndReachedThreshold={0.1}
+      ListFooterComponent={renderFooter}
     />
   );
 };

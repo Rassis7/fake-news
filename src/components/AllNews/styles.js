@@ -48,4 +48,6 @@ export const Description = styled.Text.attrs({
   margin-bottom: 5px;
 `;
 
-export const CardFooter = styled.View``;
+export const Loading = styled.View`
+  padding: 20px;
+`;
