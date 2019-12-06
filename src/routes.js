@@ -1,44 +1,59 @@
 import React from 'react';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import {Transition} from 'react-native-reanimated';
+import {createMaterialTopTabNavigator} from 'react-navigation-tabs';
+
+//Usarei em breve
+// import {Transition} from 'react-native-reanimated';
 
 import Main from 'pages/Main';
 import News from 'pages/News';
-import NotData from 'pages/NotData';
+import SignIn from 'pages/SignIn';
+import AuthLoading from 'pages/AuthLoading';
+// import NotData from 'pages/NotData';
 
-const Navigator = createStackNavigator(
+const AppStack = createStackNavigator({News});
+const AuthStack = createStackNavigator({SignIn});
+
+const Tabs = createMaterialTopTabNavigator(
   {
-    Main,
-    News,
-    NotData,
+    Geral: () => <Main category="general" />,
+    Tecnologia: () => <Main category="technology" />,
+    Negócios: () => <Main category="business" />,
+    Entreterimento: () => <Main category="entertainment" />,
+    Saúde: () => <Main category="health" />,
+    Ciências: () => <Main category="science" />,
+    Esporte: () => <Main category="sports" />,
   },
   {
-    headerLayoutPreset: 'center',
-    headerBackTitleVisible: false,
-    mode: 'modal',
-    defaultNavigationOptions: {
-      headerTitleStyle: {
-        fontSize: 24,
-        fontWeight: 'bold',
+    swipeEnabled: true,
+    animationEnabled: true,
+    lazy: true,
+    tabBarOptions: {
+      scrollEnabled: true,
+      activeTintColor: '#000',
+      inactiveTintColor: 'red',
+
+      style: {
+        backgroundColor: '#fff',
       },
     },
-    transition: (
-      <Transition.Sequence>
-        <Transition.Out type="fade" durationMs={400} interpolation="easeIn" />
-        <Transition.Change />
-        <Transition.Together>
-          <Transition.In
-            type="slide-bottom"
-            durationMs={400}
-            interpolation="easeOut"
-            propagation="bottom"
-          />
-          <Transition.In type="fade" durationMs={200} delayMs={100} />
-        </Transition.Together>
-      </Transition.Sequence>
-    ),
   },
 );
 
-export default createAppContainer(createSwitchNavigator({Navigator}));
+const TabsStack = createStackNavigator({Tabs});
+
+//https://reactnavigation.org/docs/en/auth-flow.html
+export default createAppContainer(
+  createSwitchNavigator(
+    {
+      AuthLoading,
+      Auth: AuthStack,
+      App: AppStack,
+      Tabs: TabsStack,
+    },
+    {
+      initialRouteName: 'Tabs',
+    },
+  ),
+);
