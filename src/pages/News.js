@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useMemo} from 'react';
-import {View, StatusBar, FlatList} from 'react-native';
+import {View, StatusBar, FlatList, TouchableOpacity} from 'react-native';
 import styled from 'styled-components/native';
 
 import Card from 'components/Card';
@@ -7,6 +7,7 @@ import FooterLoading from 'components/FooterLoading';
 import {getColor} from 'utils/category';
 import {getWidth} from 'styles/global';
 import {getNews} from 'services/api/news';
+import {useNavigation} from 'react-navigation-hooks';
 
 const Container = styled.View`
   background: #f1f1f1;
@@ -15,6 +16,8 @@ const Container = styled.View`
 `;
 
 const News = ({category}) => {
+  const {navigate} = useNavigation();
+
   const [loading, setLoading] = useState(false);
   const [news, setNews] = useState([]);
   const [page, setPage] = useState(2);
@@ -23,14 +26,19 @@ const News = ({category}) => {
   useEffect(() => loadingNews(), [category]);
 
   const loadingNews = async () => {
-    if (loading) return;
-    setLoading(true);
+    try {
+      if (loading) return;
+      setLoading(true);
 
-    const response = await getNews(category, page);
-    setNews(response);
+      const response = await getNews(category, page);
+      setNews([...news, ...response]);
 
-    setPage(page + 1);
-    setLoading(false);
+      setPage(page + 1);
+    } catch (e) {
+      console.log(e);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const newsMemo = useMemo(
@@ -52,13 +60,16 @@ const News = ({category}) => {
           </View>
         }
         renderItem={({item}) => (
-          <Card
-            color={color}
-            title={item.title}
-            description={item.description}
-            urlToImage={item.urlToImage}
-            publishedAt={item.publishedAt}
-          />
+          <TouchableOpacity
+            onPress={() => navigate('WebViewNews', {uri: item.url})}>
+            <Card
+              color={color}
+              title={item.title}
+              description={item.description}
+              urlToImage={item.urlToImage}
+              publishedAt={item.publishedAt}
+            />
+          </TouchableOpacity>
         )}
         onEndReached={loadingNews}
         onEndReachedThreshold={0.1}

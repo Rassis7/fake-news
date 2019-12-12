@@ -1,5 +1,6 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
-import {AppStack, AuthStack} from 'routes/stacks';
+import {AuthStack} from 'routes/stacks';
+import {TransitionAppStack} from 'routes/transition';
 
 import AuthLoading from 'pages/AuthLoading';
 
@@ -9,7 +10,7 @@ export default createAppContainer(
     {
       AuthLoading,
       Auth: AuthStack,
-      App: AppStack,
+      App: TransitionAppStack,
     },
     {
       initialRouteName: 'App',

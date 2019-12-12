@@ -3,9 +3,9 @@ export const getColor = category => {
     general: () => '#d12ea3',
     business: () => '#FF0000',
     entertainment: () => '#00c6d1',
-    technology: () => '#084d6e',
+    // technology: () => '#084d6e',
     health: () => '#117f2a',
-    science: () => '#ff6828',
+    'science&technology': () => '#ff6828',
     sports: () => '#7659c1',
   };
 

@@ -10,9 +10,9 @@ export default Tabs = createMaterialTopTabNavigator(
       screen: () => <News category="general" />,
       navigationOptions: getNavigateOptions('general'),
     },
-    tecnológia: {
-      screen: () => <News category="technology" />,
-      navigationOptions: getNavigateOptions('technology'),
+    'ciências e tecnológia': {
+      screen: () => <News category="science&technology" />,
+      navigationOptions: getNavigateOptions('science&technology'),
     },
     negócios: {
       screen: () => <News category="business" />,
@@ -26,10 +26,7 @@ export default Tabs = createMaterialTopTabNavigator(
       screen: () => <News category="health" />,
       navigationOptions: getNavigateOptions('health'),
     },
-    ciências: {
-      screen: () => <News category="science" />,
-      navigationOptions: getNavigateOptions('science'),
-    },
+
     esporte: {
       screen: () => <News category="sports" />,
       navigationOptions: getNavigateOptions('sports'),

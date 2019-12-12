@@ -1,21 +1,76 @@
+import React from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
-
-//Usarei em breve
-// import {Transition} from 'react-native-reanimated';
-
-import SignIn from 'pages/SignIn';
+import {getWidth, getHeight} from 'styles/global';
+import styled from 'styled-components/native';
+import SignIn from '../pages/SignIn';
+import Profile from '../pages/Profile';
+import WebViewNews from '../pages/WebView';
+import Avatar from 'components/Avatar';
 import Tabs from 'routes/tab';
-// import NotData from 'pages/NotData';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+Icon.loadFont();
+
+const StyledHeaderBar = styled.TouchableOpacity`
+  padding: ${getWidth(2)}px ${getHeight(2)}px;
+`;
+
+import {Transition} from 'react-navigation-fluid-transitions';
 
 export const AuthStack = createStackNavigator({SignIn});
 
-export const AppStack = createStackNavigator({
-  Tabs: {
-    screen: Tabs,
-    navigationOptions: () => ({
-      title: 'AQUELA LOGO FODA AQUI',
-      headerTintColor: '#000',
-      headerStyle: {borderBottomWidth: 0},
-    }),
+export const AppStack = createStackNavigator(
+  {
+    Tabs: {
+      screen: Tabs,
+      navigationOptions: ({navigation}) => ({
+        // title: 'AQUELA LOGO FODA AQUI',
+        headerTintColor: '#000',
+        headerStyle: {borderBottomWidth: 0},
+        // headerRight: (
+        //   <ShareNews news={navigation.getParam('item')} size={24} color="#fff" />
+        // ),
+        headerLeft: (
+          <Transition shared="avatarProfile">
+            <StyledHeaderBar onPress={() => navigation.navigate('Profile')}>
+              <Avatar
+                url="https://avatars3.githubusercontent.com/u/6963242?s=400&u=20e06b9d3692da2a949349b9979e5221cd34178e&v=4"
+                size={3}
+              />
+            </StyledHeaderBar>
+          </Transition>
+        ),
+      }),
+    },
+    Profile: {
+      screen: Profile,
+    },
+    WebViewNews: {
+      screen: WebViewNews,
+      navigationOptions: ({navigation}) => ({
+        headerLeft: (
+          <StyledHeaderBar onPress={() => navigation.goBack()}>
+            <Icon name="keyboard-arrow-down" size={40} color="#999" />
+          </StyledHeaderBar>
+        ),
+      }),
+    },
   },
-});
+  {
+    mode: 'modal',
+    transition: (
+      <Transition.Sequence>
+        <Transition.Out type="fade" durationMs={400} interpolation="easeIn" />
+        <Transition.Change />
+        <Transition.Together>
+          <Transition.In
+            type="slide-bottom"
+            durationMs={400}
+            interpolation="easeOut"
+            propagation="bottom"
+          />
+          <Transition.In type="fade" durationMs={200} delayMs={100} />
+        </Transition.Together>
+      </Transition.Sequence>
+    ),
+  },
+);

@@ -1,10 +1,12 @@
-import React, {useMemo} from 'react';
+import React from 'react';
 import styled from 'styled-components/native';
 import ShimmerPlaceHolder from 'react-native-shimmer-placeholder';
 
 import {getWidth, getHeight} from 'styles/global';
 import Lottie from 'lottie-react-native';
 import loadingImage from '../../animations/loadingImage';
+import {formatDate} from 'utils/format';
+import {format} from 'date-fns';
 
 const CardStyled = styled.View`
   width: ${getWidth(90)}px;
@@ -106,7 +108,9 @@ const Card = React.memo(
           )}
 
           <PublishedAtStyled>
-            <TextPublishedAtStyled>{publishedAt}</TextPublishedAtStyled>
+            <TextPublishedAtStyled>
+              {/* {publishedAt && formatDate(new Date(`${publishedAt}`))} */}
+            </TextPublishedAtStyled>
           </PublishedAtStyled>
         </CardContentStyled>
       </CardStyled>
