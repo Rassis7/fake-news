@@ -7,14 +7,15 @@ import Profile from '../pages/Profile';
 import WebViewNews from '../pages/WebView';
 import Avatar from 'components/Avatar';
 import Tabs from 'routes/tab';
+import ShareNews from '../components/ShareNews';
+import {Transition} from 'react-navigation-fluid-transitions';
+
 import Icon from 'react-native-vector-icons/MaterialIcons';
 Icon.loadFont();
 
 const StyledHeaderBar = styled.TouchableOpacity`
   padding: ${getWidth(2)}px ${getHeight(2)}px;
 `;
-
-import {Transition} from 'react-navigation-fluid-transitions';
 
 export const AuthStack = createStackNavigator({SignIn});
 
@@ -26,9 +27,7 @@ export const AppStack = createStackNavigator(
         // title: 'AQUELA LOGO FODA AQUI',
         headerTintColor: '#000',
         headerStyle: {borderBottomWidth: 0},
-        // headerRight: (
-        //   <ShareNews news={navigation.getParam('item')} size={24} color="#fff" />
-        // ),
+
         headerLeft: (
           <Transition shared="avatarProfile">
             <StyledHeaderBar onPress={() => navigation.navigate('Profile')}>
@@ -47,9 +46,17 @@ export const AppStack = createStackNavigator(
     WebViewNews: {
       screen: WebViewNews,
       navigationOptions: ({navigation}) => ({
+        headerRight: (
+          <ShareNews
+            style={{padding: 5}}
+            news={navigation.getParam('news')}
+            size={24}
+            color="#999"
+          />
+        ),
         headerLeft: (
           <StyledHeaderBar onPress={() => navigation.goBack()}>
-            <Icon name="keyboard-arrow-down" size={40} color="#999" />
+            <Icon name="close" size={32} color="#999" />
           </StyledHeaderBar>
         ),
       }),

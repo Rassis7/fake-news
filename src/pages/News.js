@@ -6,8 +6,8 @@ import Card from 'components/Card';
 import FooterLoading from 'components/FooterLoading';
 import {getColor} from 'utils/category';
 import {getWidth} from 'styles/global';
-import {getNews} from 'services/api/news';
 import {useNavigation} from 'react-navigation-hooks';
+import {useNews} from '../hooks/useNews';
 
 const Container = styled.View`
   background: #f1f1f1;
@@ -20,48 +20,31 @@ const News = ({category}) => {
 
   const [loading, setLoading] = useState(false);
   const [news, setNews] = useState([]);
-  const [page, setPage] = useState(2);
+  const [page, setPage] = useState(1);
+
+  const newsResponse = useNews(category, page);
   const color = getColor(category);
 
-  useEffect(() => loadingNews(), [category]);
+  useEffect(() => setNews([...news, ...newsResponse]), [newsResponse]);
 
-  const loadingNews = async () => {
-    try {
-      if (loading) return;
-      setLoading(true);
-
-      const response = await getNews(category, page);
-      setNews([...news, ...response]);
-
-      setPage(page + 1);
-    } catch (e) {
-      console.log(e);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const newsMemo = useMemo(
-    () => news.filter(n => n.title && n.urlToImage && n.url && n.description),
-    [news],
-  );
+  const addPage = () => setPage(p => p + 1);
 
   return (
     <Container>
-      <StatusBar headerTintColor="#000" />
       <FlatList
-        data={newsMemo}
+        data={news.filter(
+          n => n.title && n.urlToImage && n.url && n.description,
+        )}
         keyExtractor={item => item.url}
         ListEmptyComponent={
           <View>
-            <Card />
             <Card />
             <Card />
           </View>
         }
         renderItem={({item}) => (
           <TouchableOpacity
-            onPress={() => navigate('WebViewNews', {uri: item.url})}>
+            onPress={() => navigate('WebViewNews', {news: item})}>
             <Card
               color={color}
               title={item.title}
@@ -71,7 +54,7 @@ const News = ({category}) => {
             />
           </TouchableOpacity>
         )}
-        onEndReached={loadingNews}
+        onEndReached={addPage}
         onEndReachedThreshold={0.1}
         ListFooterComponent={<FooterLoading loading={loading} />}
       />
