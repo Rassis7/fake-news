@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useContext} from 'react';
 import {useNavigation} from 'react-navigation-hooks';
 import AsyncStorage from '@react-native-community/async-storage';
 import Lottie from 'lottie-react-native';
@@ -6,7 +6,7 @@ import {getHeight} from 'styles/global';
 import styled from 'styled-components';
 import ninja from '../../animations/ninja';
 import {getCurrentLocation} from '../hadware/location';
-import {isAfter, subHours, addDays} from 'date-fns';
+import {WeatherContext} from '../Store';
 
 const StyledContainer = styled.View`
   flex: 1;
@@ -20,22 +20,14 @@ const StyledLottie = styled(Lottie)`
 
 const AuthLoading = () => {
   const {navigate} = useNavigation();
+  const {weather, setWeather} = useContext(WeatherContext);
 
   const currentLocation = async () => {
-    const localStorage = await AsyncStorage.getItem('_myLocation');
-    if (!localStorage) return;
+    const location = await getCurrentLocation();
+    if (!location) return;
 
-    const {time} = JSON.parse(localStorage);
-
-    if (isAfter(new Date(), time)) {
-      const location = await getCurrentLocation();
-      if (location.error) alert('Houve um erro ao pegar a sua localixação');
-
-      await AsyncStorage.setItem(
-        '_myLocation',
-        JSON.stringify({...location, time: addDays(new Date(), 1)}),
-      );
-    }
+    const {latitude: lat, longitude: lon} = location;
+    setWeather({...weather, coord: {lat, lon}});
   };
 
   const goToView = async () => {

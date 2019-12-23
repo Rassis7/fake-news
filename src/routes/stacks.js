@@ -5,10 +5,12 @@ import styled from 'styled-components/native';
 import SignIn from '../pages/SignIn';
 import Profile from '../pages/Profile';
 import WebViewNews from '../pages/WebView';
+import Weather from '../pages/Weather';
 import Avatar from 'components/Avatar';
 import Tabs from 'routes/tab';
 import ShareNews from '../components/ShareNews';
 import {Transition} from 'react-navigation-fluid-transitions';
+import WeatherHeader from '../components/WeatherHeader';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 Icon.loadFont();
@@ -24,10 +26,9 @@ export const AppStack = createStackNavigator(
     Tabs: {
       screen: Tabs,
       navigationOptions: ({navigation}) => ({
-        // title: 'AQUELA LOGO FODA AQUI',
+        title: 'AQUELA LOGO FODA AQUI',
         headerTintColor: '#000',
         headerStyle: {borderBottomWidth: 0},
-
         headerLeft: (
           <Transition shared="avatarProfile">
             <StyledHeaderBar onPress={() => navigation.navigate('Profile')}>
@@ -37,6 +38,14 @@ export const AppStack = createStackNavigator(
               />
             </StyledHeaderBar>
           </Transition>
+        ),
+        headerRight: (
+          <StyledHeaderBar
+            onPress={() => {
+              navigation.navigate('Weather');
+            }}>
+            <WeatherHeader />
+          </StyledHeaderBar>
         ),
       }),
     },
@@ -60,6 +69,9 @@ export const AppStack = createStackNavigator(
           </StyledHeaderBar>
         ),
       }),
+    },
+    Weather: {
+      screen: Weather,
     },
   },
   {
