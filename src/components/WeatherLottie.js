@@ -7,10 +7,10 @@ import Lottie from 'lottie-react-native';
 import {getHeight} from 'styles/global';
 
 const StyledLottie = styled(Lottie)`
-  height: ${getHeight(6)}px;
+  height: ${props => getHeight(props.size)}px;
 `;
 
-const WeatherHeader = () => {
+const WeatherLottie = ({size}) => {
   const {weather: weatherContext} = useContext(WeatherContext);
   const {infos} = weatherContext;
 
@@ -19,6 +19,7 @@ const WeatherHeader = () => {
   const json = getIconWeather(infos.weather.icon);
   return (
     <StyledLottie
+      size={size}
       autoSize
       resizeMode="contain"
       source={json}
@@ -29,4 +30,4 @@ const WeatherHeader = () => {
   );
 };
 
-export default WeatherHeader;
+export default WeatherLottie;

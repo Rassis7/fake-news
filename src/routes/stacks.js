@@ -10,7 +10,7 @@ import Avatar from 'components/Avatar';
 import Tabs from 'routes/tab';
 import ShareNews from '../components/ShareNews';
 import {Transition} from 'react-navigation-fluid-transitions';
-import WeatherHeader from '../components/WeatherHeader';
+import WeatherLottie from '../components/WeatherLottie';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 Icon.loadFont();
@@ -40,17 +40,32 @@ export const AppStack = createStackNavigator(
           </Transition>
         ),
         headerRight: (
-          <StyledHeaderBar
-            onPress={() => {
-              navigation.navigate('Weather');
-            }}>
-            <WeatherHeader />
+          <StyledHeaderBar onPress={() => navigation.navigate('WeatherPage')}>
+            <WeatherLottie size={6} />
           </StyledHeaderBar>
         ),
       }),
     },
     Profile: {
       screen: Profile,
+      navigationOptions: ({navigation}) => ({
+        headerLeft: (
+          <StyledHeaderBar onPress={() => navigation.goBack()}>
+            <Icon name="close" size={32} color="#999" />
+          </StyledHeaderBar>
+        ),
+      }),
+    },
+    WeatherPage: {
+      screen: Weather,
+      navigationOptions: ({navigation}) => ({
+        title: 'Clima hoje',
+        headerLeft: (
+          <StyledHeaderBar onPress={() => navigation.goBack()}>
+            <Icon name="close" size={32} color="#999" />
+          </StyledHeaderBar>
+        ),
+      }),
     },
     WebViewNews: {
       screen: WebViewNews,
@@ -69,9 +84,6 @@ export const AppStack = createStackNavigator(
           </StyledHeaderBar>
         ),
       }),
-    },
-    Weather: {
-      screen: Weather,
     },
   },
   {
