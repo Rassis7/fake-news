@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import weatherApi from '../services/weatherApi';
+import {WEATHER_API_KEY} from 'react-native-dotenv';
 
 const getWeather = async (setWeather, coords) => {
   const {lat, lon} = coords;
@@ -8,14 +9,14 @@ const getWeather = async (setWeather, coords) => {
       lat,
       lon,
       lang: 'pt',
-      appid: '5b92021c0f297c582df0a61880f97bba',
+      appid: WEATHER_API_KEY,
       units: 'metric',
     },
   });
 
   if (response && response.data) {
-    const {weather, main, sys} = response.data;
-    setWeather({weather: weather[0], main, sys});
+    const {weather, main, sys, name} = response.data;
+    setWeather({weather: weather[0], main, sys, location: name});
   }
 };
 

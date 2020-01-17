@@ -18,6 +18,11 @@ const StyledTemp = styled.View`
   margin-top: ${getHeight(3)}px;
 `;
 
+const StyledTextLocation = styled.Text`
+  font-size: ${getHeight(3)}px;
+  color: #666;
+`;
+
 const StyledTempText = styled.Text`
   font-size: ${getHeight(8)}px;
   color: #ccc;
@@ -40,7 +45,6 @@ const Weather = () => {
 
   const weatherFormatted = useMemo(() => {
     const {infos} = weather;
-    console.tron.log(infos);
 
     return {
       ...infos,
@@ -55,14 +59,17 @@ const Weather = () => {
         description: String(infos.weather.description).toUpperCase(),
       },
     };
-  }, weather);
+  }, [weather]);
 
   return (
     <Container>
       <WeatherLottie size={30} />
 
       <StyledTemp>
+        <StyledTextLocation>{weatherFormatted.location}</StyledTextLocation>
+
         <StyledTempText>{weatherFormatted.main.temp}</StyledTempText>
+
         <StyledTempTextMinMax>
           {weatherFormatted.main.temp_min}/{weatherFormatted.main.temp_max}
         </StyledTempTextMinMax>

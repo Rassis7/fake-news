@@ -38,10 +38,10 @@ const CardContentStyled = styled.View`
 `;
 
 const TitleStyled = styled.Text.attrs({
-  numberOfLines: 1,
+  numberOfLines: 3,
 })`
   color: ${props => (props.color ? props.color : '#999')};
-  font-size: ${getWidth(7)}px;
+  font-size: ${getWidth(5)}px;
   font-weight: bold;
   margin-bottom: ${getHeight(1)}px;
 `;
@@ -57,10 +57,11 @@ const DescriptionStyled = styled.Text.attrs({
 const PublishedAtStyled = styled.View`
   display: flex;
   align-items: flex-end;
+  margin-top: ${getWidth(4)}px;
 `;
 
 const TextPublishedAtStyled = styled.Text`
-  color: #ccc;
+  color: #666;
 `;
 
 const Card = React.memo(
@@ -89,15 +90,29 @@ const Card = React.memo(
           {title ? (
             <TitleStyled color={color}>{title}</TitleStyled>
           ) : (
-            <ShimmerPlaceHolder
-              autoRun={true}
-              height={getHeight(3)}
-              width={getWidth(60)}
-              style={{marginBottom: getHeight(1)}}
-            />
+            <>
+              <ShimmerPlaceHolder
+                autoRun={true}
+                height={getHeight(2)}
+                width={getWidth(80)}
+                style={{marginBottom: getHeight(1)}}
+              />
+              <ShimmerPlaceHolder
+                autoRun={true}
+                height={getHeight(2)}
+                width={getWidth(80)}
+                style={{marginBottom: getHeight(1)}}
+              />
+              <ShimmerPlaceHolder
+                autoRun={true}
+                height={getHeight(2)}
+                width={getWidth(80)}
+                style={{marginBottom: getHeight(1)}}
+              />
+            </>
           )}
 
-          {description ? (
+          {/* {description ? (
             <DescriptionStyled>{description}</DescriptionStyled>
           ) : (
             <ShimmerPlaceHolder
@@ -105,11 +120,11 @@ const Card = React.memo(
               height={getHeight(2)}
               width={getWidth(40)}
             />
-          )}
+          )} */}
 
           <PublishedAtStyled>
             <TextPublishedAtStyled>
-              {/* {publishedAt && formatDate(new Date(`${publishedAt}`))} */}
+              {publishedAt && formatDate(publishedAt)}
             </TextPublishedAtStyled>
           </PublishedAtStyled>
         </CardContentStyled>

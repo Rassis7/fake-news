@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useContext} from 'react';
+import React, {useEffect, useState, useContext, useCallback} from 'react';
 import {View, FlatList, TouchableOpacity} from 'react-native';
 import styled from 'styled-components/native';
 
@@ -17,6 +17,7 @@ const Container = styled.View`
   height: 100%;
 `;
 
+const totalPages = 10;
 const News = ({category}) => {
   const {navigate} = useNavigation();
 
@@ -25,18 +26,16 @@ const News = ({category}) => {
   const [page, setPage] = useState(1);
   const {weather, setWeather} = useContext(WeatherContext);
 
-  const newsResponse = useNews(category, page);
+  const {newsResponse, hasError} = useNews(category, page);
   const weatherResponse = useWeather(weather.coord);
 
   const color = getColor(category);
 
-  useEffect(() => setNews([...news, ...newsResponse]), [newsResponse]);
+  useEffect(() => setNews(n => [...n, ...newsResponse]), [newsResponse]);
 
-  useEffect(() => setWeather({...weather, infos: weatherResponse}), [
+  useEffect(() => setWeather(w => ({...w, infos: weatherResponse})), [
     weatherResponse,
   ]);
-
-  const addPage = () => setPage(p => p + 1);
 
   return (
     <Container>
@@ -63,9 +62,16 @@ const News = ({category}) => {
             />
           </TouchableOpacity>
         )}
-        onEndReached={addPage}
+        onEndReached={() => {
+          if (news.length / totalPages !== page) {
+            setLoading(true);
+            setPage(p => p + 1);
+          } else {
+            setLoading(false);
+          }
+        }}
         onEndReachedThreshold={0.1}
-        ListFooterComponent={<FooterLoading loading={loading} />}
+        ListFooterComponent={loading && <FooterLoading loading={loading} />}
       />
     </Container>
   );
