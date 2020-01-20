@@ -7,9 +7,7 @@ const LoadingStyled = styled.View`
   padding: ${getWidth(5)}px;
 `;
 
-export default function FooterLoading({loading}) {
-  if (!loading) <React.Fragment />;
-
+export default function FooterLoading() {
   return (
     <LoadingStyled>
       <ActivityIndicator />
