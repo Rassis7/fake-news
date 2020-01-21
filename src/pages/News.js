@@ -1,14 +1,17 @@
 import React, {useEffect, useState, useContext} from 'react';
 import {View, FlatList, TouchableOpacity} from 'react-native';
 import styled from 'styled-components/native';
+import {useNavigation} from 'react-navigation-hooks';
 
 import Card from 'components/Card';
 import FooterLoading from 'components/FooterLoading';
+
 import {getColor} from 'utils/category';
 import {getWidth} from 'styles/global';
-import {useNavigation} from 'react-navigation-hooks';
+
 import {useNews} from '../hooks/useNews';
 import {useWeather} from '../hooks/useWeather';
+
 import {WeatherContext} from '../Store';
 
 const Container = styled.View`
@@ -20,15 +23,13 @@ const Container = styled.View`
 const totalPages = 10;
 const News = ({category}) => {
   const {navigate} = useNavigation();
+  const {weather, setWeather} = useContext(WeatherContext);
 
   const [news, setNews] = useState([]);
   const [page, setPage] = useState(1);
-  const {weather, setWeather} = useContext(WeatherContext);
 
   const {newsResponse, hasError, loading} = useNews(category, page);
   const weatherResponse = useWeather(weather.coord);
-
-  const color = getColor(category);
 
   useEffect(
     () =>
@@ -61,7 +62,7 @@ const News = ({category}) => {
           <TouchableOpacity
             onPress={() => navigate('WebViewNews', {news: item})}>
             <Card
-              color={color}
+              color={getColor(category)}
               title={item.title}
               description={item.description}
               urlToImage={item.urlToImage}

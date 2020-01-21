@@ -1,12 +1,12 @@
-import React, {useEffect, useContext} from 'react';
+import React, {useEffect} from 'react';
 import {useNavigation} from 'react-navigation-hooks';
 import AsyncStorage from '@react-native-community/async-storage';
+
 import Lottie from 'lottie-react-native';
+
 import {getHeight} from 'styles/global';
 import styled from 'styled-components';
 import ninja from '../../animations/ninja';
-import {getCurrentLocation} from '../hadware/location';
-import {WeatherContext} from '../Store';
 
 const StyledContainer = styled.View`
   flex: 1;
@@ -20,25 +20,19 @@ const StyledLottie = styled(Lottie)`
 
 const AuthLoading = () => {
   const {navigate} = useNavigation();
-  const {weather, setWeather} = useContext(WeatherContext);
 
-  const currentLocation = async () => {
-    const location = await getCurrentLocation();
-    if (!location) return;
+  const goToView = async navigate => {
+    try {
+      const userToken = await AsyncStorage.getItem('_userToken');
+      navigate(!userToken ? 'Auth' : 'App');
+    } catch (error) {
+      console.log('ERROR - ', error);
+    }
 
-    const {latitude: lat, longitude: lon} = location;
-    setWeather({...weather, coord: {lat, lon}});
+    return () => {};
   };
 
-  const goToView = async () => {
-    userToken = await AsyncStorage.getItem('_userToken');
-    return navigate(!userToken ? 'App' : 'Auth');
-  };
-
-  useEffect(() => {
-    currentLocation();
-    goToView();
-  }, []);
+  useEffect(() => goToView(navigate), []);
 
   return (
     <StyledContainer>
