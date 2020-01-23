@@ -1,14 +1,18 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import styled from 'styled-components';
+import {useNavigation} from 'react-navigation-hooks';
+import AsyncStorage from '@react-native-community/async-storage';
+
+import {GoogleSignin} from '@react-native-community/google-signin';
+import Avatar from 'components/Avatar';
+import {UserContext} from '../Store';
+
 import {
   getWidth,
   getHeight,
   StyledButton,
   StyledTextButton,
 } from 'styles/global';
-import Avatar from 'components/Avatar';
-
-import {Transition} from 'react-navigation-fluid-transitions';
 
 const Container = styled.SafeAreaView`
   padding: ${getWidth(0.05)}px;
@@ -18,23 +22,45 @@ const Container = styled.SafeAreaView`
   margin-top: ${getHeight(5)}px;
 `;
 
+const StyledText = styled.View`
+  margin-top: ${getHeight(3)}px;
+`;
+
+const StyledName = styled.Text`
+  font-size: ${getHeight(5)}px;
+  color: #999;
+`;
+
+const StyledEmail = styled.Text`
+  font-size: ${getHeight(3)}px;
+  color: #ccc;
+`;
+
 export default function Profile() {
+  const {navigate} = useNavigation();
+  const {user} = useContext(UserContext);
+
+  const signOut = async () => {
+    try {
+      await AsyncStorage.removeItem('_user');
+      await GoogleSignin.revokeAccess();
+      await GoogleSignin.signOut();
+      navigate('Auth');
+    } catch (error) {
+      console.log('PROFILE ERROR', error);
+    }
+  };
+
   return (
     <Container>
-      <Transition shared="avatarProfile">
-        <Avatar
-          url="https://avatars3.githubusercontent.com/u/6963242?s=400&u=20e06b9d3692da2a949349b9979e5221cd34178e&v=4"
-          size={15}
-        />
-      </Transition>
+      <Avatar url={user && user.photo} size={15} />
 
-      <StyledButton background="#02bbee" w={70} h={5} mt={6}>
-        <StyledTextButton color="#fff" fontSize={3}>
-          Trocar Avatar
-        </StyledTextButton>
-      </StyledButton>
+      <StyledText>
+        <StyledName>{user && user.name}</StyledName>
+        <StyledEmail>{user && user.email}</StyledEmail>
+      </StyledText>
 
-      <StyledButton background="#e02200" w={70} h={5} mt={30}>
+      <StyledButton background="#e02200" w={70} h={5} mt={40} onPress={signOut}>
         <StyledTextButton color="#fff" fontSize={3}>
           Sair
         </StyledTextButton>

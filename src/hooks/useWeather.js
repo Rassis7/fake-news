@@ -27,7 +27,7 @@ export const useWeather = coords => {
     try {
       if (coords) getWeather(setWeather, coords);
     } catch (error) {
-      console.log('error', error.message);
+      console.log('WEATHER ERROR', error.message);
     }
   }, [coords]);
 

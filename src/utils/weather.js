@@ -1,3 +1,5 @@
+import oneD from '../../animations/weather/01d';
+import oneN from '../../animations/weather/01n';
 import two from '../../animations/weather/02';
 import eleven from '../../animations/weather/11';
 import fifty from '../../animations/weather/50';
@@ -9,6 +11,12 @@ import tenN from '../../animations/weather/10n';
 export const getIconWeather = animateName => {
   let icon;
   switch (animateName) {
+    case '01d':
+      icon = oneD;
+      break;
+    case '01n':
+      icon = oneN;
+      break;
     case '02n':
     case '02d':
       icon = two;

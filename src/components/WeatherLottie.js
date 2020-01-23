@@ -17,6 +17,7 @@ const WeatherLottie = ({size}) => {
   if (!infos) return <View />;
 
   const json = getIconWeather(infos.weather.icon);
+
   return (
     <StyledLottie
       size={size}
@@ -25,7 +26,6 @@ const WeatherLottie = ({size}) => {
       source={json}
       autoPlay
       loop
-      style={{}}
     />
   );
 };

@@ -2,11 +2,11 @@ import React, {useEffect, useContext} from 'react';
 import {useNavigation} from 'react-navigation-hooks';
 import AsyncStorage from '@react-native-community/async-storage';
 import Lottie from 'lottie-react-native';
+
 import {getHeight} from 'styles/global';
 import styled from 'styled-components';
 import ninja from '../../animations/ninja';
-import {getCurrentLocation} from '../hadware/location';
-import {WeatherContext} from '../Store';
+import {UserContext} from '../Store';
 
 const StyledContainer = styled.View`
   flex: 1;
@@ -20,25 +20,25 @@ const StyledLottie = styled(Lottie)`
 
 const AuthLoading = () => {
   const {navigate} = useNavigation();
-  const {weather, setWeather} = useContext(WeatherContext);
-
-  const currentLocation = async () => {
-    const location = await getCurrentLocation();
-    if (!location) return;
-
-    const {latitude: lat, longitude: lon} = location;
-    setWeather({...weather, coord: {lat, lon}});
-  };
+  const {user, setUser} = useContext(UserContext);
 
   const goToView = async () => {
-    userToken = await AsyncStorage.getItem('_userToken');
-    return navigate(!userToken ? 'App' : 'Auth');
+    const userStorage = JSON.parse(await AsyncStorage.getItem('_user'));
+
+    if (userStorage) {
+      setUser(userStorage);
+      return setTimeout(() => navigate('App'), 2000);
+    }
+    setTimeout(() => navigate('Auth'), 3000);
   };
 
   useEffect(() => {
-    currentLocation();
-    goToView();
-  }, []);
+    try {
+      goToView();
+    } catch (error) {
+      console.log('AUTH_LOADING ERROR', error);
+    }
+  }, [user]);
 
   return (
     <StyledContainer>

@@ -1,16 +1,19 @@
 import React from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
+import {Transition} from 'react-navigation-fluid-transitions';
+
 import {getWidth, getHeight} from 'styles/global';
 import styled from 'styled-components/native';
-import SignIn from '../pages/SignIn';
+
+import Tabs from 'routes/tab';
+
 import Profile from '../pages/Profile';
 import WebViewNews from '../pages/WebView';
 import Weather from '../pages/Weather';
-import Avatar from 'components/Avatar';
-import Tabs from 'routes/tab';
+
 import ShareNews from '../components/ShareNews';
-import {Transition} from 'react-navigation-fluid-transitions';
-import WeatherLottie from '../components/WeatherLottie';
+import WeatherHeader from '../components/WeatherHeader';
+import AvatarHeader from '../components/AvatarHeader';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 Icon.loadFont();
@@ -19,31 +22,16 @@ const StyledHeaderBar = styled.TouchableOpacity`
   padding: ${getWidth(2)}px ${getHeight(2)}px;
 `;
 
-export const AuthStack = createStackNavigator({SignIn});
-
 export const AppStack = createStackNavigator(
   {
     Tabs: {
       screen: Tabs,
-      navigationOptions: ({navigation}) => ({
+      navigationOptions: () => ({
         title: 'AQUELA LOGO FODA AQUI',
         headerTintColor: '#000',
         headerStyle: {borderBottomWidth: 0},
-        headerLeft: (
-          <Transition shared="avatarProfile">
-            <StyledHeaderBar onPress={() => navigation.navigate('Profile')}>
-              <Avatar
-                url="https://avatars3.githubusercontent.com/u/6963242?s=400&u=20e06b9d3692da2a949349b9979e5221cd34178e&v=4"
-                size={3}
-              />
-            </StyledHeaderBar>
-          </Transition>
-        ),
-        headerRight: (
-          <StyledHeaderBar onPress={() => navigation.navigate('WeatherPage')}>
-            <WeatherLottie size={6} />
-          </StyledHeaderBar>
-        ),
+        headerLeft: <AvatarHeader />,
+        headerRight: <WeatherHeader />,
       }),
     },
     Profile: {
