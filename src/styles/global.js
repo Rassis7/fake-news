@@ -33,3 +33,7 @@ export const StyledTextButton = styled.Text`
   color: ${props => props.color};
   font-size: ${props => (props.fontSize ? getHeight(props.fontSize) : 14)}px;
 `;
+
+export const StyledHeaderBar = styled.TouchableOpacity`
+  padding: ${getWidth(2)}px ${getHeight(2)}px;
+`;
