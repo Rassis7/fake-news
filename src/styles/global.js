@@ -37,3 +37,11 @@ export const StyledTextButton = styled.Text`
 export const StyledHeaderBar = styled.TouchableOpacity`
   padding: ${getWidth(2)}px ${getHeight(2)}px;
 `;
+
+export const StyledBackgroundShape = styled.View`
+  background: ${props => props.background};
+  height: ${props => getHeight(props.height)};
+  width: ${getWidth(100)};
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+`;
