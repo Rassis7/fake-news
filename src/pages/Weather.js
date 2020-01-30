@@ -1,24 +1,24 @@
 import React, {useContext, useMemo} from 'react';
 import styled from 'styled-components';
-import {getWidth, getHeight} from 'styles/global';
+
+import {getWidth, getHeight, StyledBackgroundShape} from 'styles/global';
 import {WeatherContext} from '../Store';
 import WeatherLottie from '../components/WeatherLottie';
 
-const Container = styled.SafeAreaView`
-  padding: ${getWidth(0.05)}px;
+const Container = styled(StyledBackgroundShape)`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: ${getHeight(5)}px;
 `;
 
 const StyledTemp = styled.View`
   justify-content: center;
   align-items: center;
-  margin-top: ${getHeight(3)}px;
+  margin-top: ${getHeight(25)}px;
 `;
 
 const StyledTextLocation = styled.Text`
+  margin-top: ${getHeight(5)}px;
   font-size: ${getHeight(3)}px;
   color: #666;
 `;
@@ -62,17 +62,12 @@ const Weather = () => {
   }, [weather]);
 
   return (
-    <Container>
-      <WeatherLottie size={30} />
-
+    <Container background="#416DF8" height={30}>
       <StyledTemp>
+        <WeatherLottie size={30} />
         <StyledTextLocation>{weatherFormatted.location}</StyledTextLocation>
 
         <StyledTempText>{weatherFormatted.main.temp}</StyledTempText>
-
-        <StyledTempTextMinMax>
-          {weatherFormatted.main.temp_min}/{weatherFormatted.main.temp_max}
-        </StyledTempTextMinMax>
 
         <StyledTempTextDescription>
           {weatherFormatted.weather.description}

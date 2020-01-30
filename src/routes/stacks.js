@@ -47,10 +47,18 @@ export const AppStack = createStackNavigator(
     WeatherPage: {
       screen: Weather,
       navigationOptions: ({navigation}) => ({
-        title: 'Clima hoje',
+        title: 'Clima de hoje',
+        headerTintColor: '#fff',
+        headerStyle: {
+          backgroundColor: '#416DF8',
+        },
+        headerTitleStyle: {
+          fontWeight: 'bold',
+          fontSize: 20,
+        },
         headerLeft: (
           <StyledHeaderBar onPress={() => navigation.goBack()}>
-            <Icon name="close" size={32} color="#999" />
+            <Icon name="close" size={32} color="#fff" />
           </StyledHeaderBar>
         ),
       }),

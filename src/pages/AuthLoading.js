@@ -29,7 +29,8 @@ const AuthLoading = () => {
       setUser(userStorage);
       return setTimeout(() => navigate('App'), 2000);
     }
-    setTimeout(() => navigate('Auth'), 3000);
+    setTimeout(() => navigate('App'), 3000);
+    // setTimeout(() => navigate('Auth'), 3000);
   };
 
   useEffect(() => {
